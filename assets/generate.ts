@@ -388,7 +388,7 @@ const uniqueServices = (serviceList: ServiceEntry[]): ServiceEntry[] => {
 const allServices = uniqueServices(services).sort((a, b) => a.name.localeCompare(b.name));
 
 const LUCIDE_CDN = "https://cdn.jsdelivr.net/npm/lucide-static@latest/icons";
-const ASSETS_DIR = new URL("./assets", import.meta.url).pathname;
+const ASSETS_DIR = new URL('.', import.meta.url).pathname;
 const ICON_COLOR = "#7d8590";
 
 const ICONS_USED = [
@@ -438,13 +438,12 @@ await downloadIcons();
 const today = new Date().toISOString().split("T")[0];
 
 const readme = `<p align="center">
-  <img src="./splash.webp" alt="Awesome LLM Services" width="100%">
+  <img src="./assets/splash.webp" alt="Awesome LLM Services" width="100%">
 </p>
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/services-${services.length}%2B-blue" alt="Services">
-  <img src="https://img.shields.io/badge/updated-${today}-green" alt="Last Updated">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
