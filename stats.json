@@ -1,0 +1,417 @@
+{
+  "sigoden/aichat": {
+    "stars": 8851,
+    "lastCommit": "2025-12-01",
+    "updated_at": "2025-12-17T21:58:14.644Z"
+  },
+  "paul-gauthier/aider": {
+    "stars": 39021,
+    "lastCommit": "2025-12-11",
+    "updated_at": "2025-12-17T21:58:15.097Z"
+  },
+  "lyogavin/airllm": {
+    "stars": 6457,
+    "lastCommit": "2025-09-03",
+    "updated_at": "2025-12-17T21:58:15.630Z"
+  },
+  "PygmalionAI/aphrodite-engine": {
+    "stars": 1609,
+    "lastCommit": "2025-11-22",
+    "updated_at": "2025-12-17T21:58:16.567Z"
+  },
+  "Significant-Gravitas/AutoGPT": {
+    "stars": 180348,
+    "lastCommit": "2025-12-12",
+    "updated_at": "2025-12-17T21:58:16.771Z"
+  },
+  "av/harbor": {
+    "stars": 2197,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:17.520Z"
+  },
+  "bionic-gpt/bionic-gpt": {
+    "stars": 2277,
+    "lastCommit": "2025-12-09",
+    "updated_at": "2025-12-17T21:58:17.954Z"
+  },
+  "browser-use/web-ui": {
+    "stars": 15328,
+    "lastCommit": "2025-08-31",
+    "updated_at": "2025-12-17T21:58:19.096Z"
+  },
+  "huggingface/chat-ui": {
+    "stars": 10351,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:19.275Z"
+  },
+  "pgibler/cmdh": {
+    "stars": 117,
+    "lastCommit": "2025-08-23",
+    "updated_at": "2025-12-17T21:58:20.065Z"
+  },
+  "comfyanonymous/ComfyUI": {
+    "stars": 97194,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:20.254Z"
+  },
+  "danielmiessler/fabric": {
+    "stars": 35239,
+    "lastCommit": "2025-12-16",
+    "updated_at": "2025-12-17T21:58:21.042Z"
+  },
+  "fmaclen/hollama": {
+    "stars": 1052,
+    "lastCommit": "2025-10-12",
+    "updated_at": "2025-12-17T21:58:21.246Z"
+  },
+  "jupyterlab/jupyterlab": {
+    "stars": 14937,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:22.212Z"
+  },
+  "kvcache-ai/ktransformers": {
+    "stars": 16217,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:22.326Z"
+  },
+  "langfuse/langfuse": {
+    "stars": 19450,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:23.278Z"
+  },
+  "danny-avila/LibreChat": {
+    "stars": 32493,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:23.332Z"
+  },
+  "EleutherAI/lm-evaluation-harness": {
+    "stars": 10962,
+    "lastCommit": "2025-12-15",
+    "updated_at": "2025-12-17T21:58:24.417Z"
+  },
+  "ggerganov/llama.cpp": {
+    "stars": 91472,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:24.760Z"
+  },
+  "lobehub/lobe-chat": {
+    "stars": 69192,
+    "lastCommit": "2025-12-16",
+    "updated_at": "2025-12-17T21:58:25.425Z"
+  },
+  "EricLBuehler/mistral.rs": {
+    "stars": 6290,
+    "lastCommit": "2025-12-13",
+    "updated_at": "2025-12-17T21:58:25.809Z"
+  },
+  "zenoverflow/omnichain": {
+    "stars": 362,
+    "lastCommit": "2025-05-13",
+    "updated_at": "2025-12-17T21:58:26.842Z"
+  },
+  "ollama/ollama": {
+    "stars": 157815,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:26.935Z"
+  },
+  "OpenInterpreter/open-interpreter": {
+    "stars": 61115,
+    "lastCommit": "2025-12-05",
+    "updated_at": "2025-12-17T21:58:28.016Z"
+  },
+  "All-Hands-AI/OpenHands": {
+    "stars": 65749,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:28.413Z"
+  },
+  "huggingface/parler-tts": {
+    "stars": 5497,
+    "lastCommit": "2024-12-10",
+    "updated_at": "2025-12-17T21:58:29.130Z"
+  },
+  "paulrobello/parllama": {
+    "stars": 405,
+    "lastCommit": "2025-12-03",
+    "updated_at": "2025-12-17T21:58:29.388Z"
+  },
+  "ItzCrazyKns/Perplexica": {
+    "stars": 27731,
+    "lastCommit": "2025-12-11",
+    "updated_at": "2025-12-17T21:58:30.137Z"
+  },
+  "plandex-ai/plandex": {
+    "stars": 14766,
+    "lastCommit": "2025-10-03",
+    "updated_at": "2025-12-17T21:58:30.473Z"
+  },
+  "searxng/searxng": {
+    "stars": 23653,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:31.281Z"
+  },
+  "sgl-project/sglang": {
+    "stars": 21595,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:31.567Z"
+  },
+  "fedirz/faster-whisper-server": {
+    "stars": 2695,
+    "lastCommit": "2025-12-01",
+    "updated_at": "2025-12-17T21:58:33.010Z"
+  },
+  "theroyallab/tabbyAPI": {
+    "stars": 1100,
+    "lastCommit": "2025-12-16",
+    "updated_at": "2025-12-17T21:58:33.840Z"
+  },
+  "zou-group/textgrad": {
+    "stars": 3155,
+    "lastCommit": "2025-07-25",
+    "updated_at": "2025-12-17T21:58:34.107Z"
+  },
+  "matatonic/openedai-speech": {
+    "stars": 837,
+    "lastCommit": "2025-02-02",
+    "updated_at": "2025-12-17T21:58:35.138Z"
+  },
+  "huggingface/text-generation-inference": {
+    "stars": 10709,
+    "lastCommit": "2025-12-11",
+    "updated_at": "2025-12-17T21:58:35.310Z"
+  },
+  "neuml/rag": {
+    "stars": 426,
+    "lastCommit": "2025-12-01",
+    "updated_at": "2025-12-17T21:58:36.208Z"
+  },
+  "vllm-project/vllm": {
+    "stars": 65644,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:36.347Z"
+  },
+  "yamalight/litlytics": {
+    "stars": 103,
+    "lastCommit": "2024-11-25",
+    "updated_at": "2025-12-17T21:58:37.226Z"
+  },
+  "Mintplex-Labs/anything-llm": {
+    "stars": 52274,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:37.443Z"
+  },
+  "NexaAI/nexa-sdk": {
+    "stars": 6215,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:38.473Z"
+  },
+  "yamadashy/repopack": {
+    "stars": 20674,
+    "lastCommit": "2025-12-16",
+    "updated_at": "2025-12-17T21:58:38.896Z"
+  },
+  "stackblitz-labs/bolt.diy": {
+    "stars": 18690,
+    "lastCommit": "2025-10-23",
+    "updated_at": "2025-12-17T21:58:39.635Z"
+  },
+  "zmh-program/chatnio": {
+    "stars": 8862,
+    "lastCommit": "2025-11-08",
+    "updated_at": "2025-12-17T21:58:40.362Z"
+  },
+  "qdrant/qdrant": {
+    "stars": 27688,
+    "lastCommit": "2025-12-04",
+    "updated_at": "2025-12-17T21:58:40.962Z"
+  },
+  "grafana/k6": {
+    "stars": 29470,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:41.495Z"
+  },
+  "promptfoo/promptfoo": {
+    "stars": 9460,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:42.082Z"
+  },
+  "linuxserver/docker-webtop": {
+    "stars": 3735,
+    "lastCommit": "2025-12-16",
+    "updated_at": "2025-12-17T21:58:42.538Z"
+  },
+  "microsoft/OmniParser": {
+    "stars": 24022,
+    "lastCommit": "2025-09-09",
+    "updated_at": "2025-12-17T21:58:43.375Z"
+  },
+  "FlowiseAI/Flowise": {
+    "stars": 47395,
+    "lastCommit": "2025-12-12",
+    "updated_at": "2025-12-17T21:58:43.588Z"
+  },
+  "langflow-ai/langflow": {
+    "stars": 141383,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:44.462Z"
+  },
+  "codelion/optillm": {
+    "stars": 3229,
+    "lastCommit": "2025-12-03",
+    "updated_at": "2025-12-17T21:58:45.059Z"
+  },
+  "LostRuins/koboldcpp": {
+    "stars": 9095,
+    "lastCommit": "2025-12-04",
+    "updated_at": "2025-12-17T21:58:45.514Z"
+  },
+  "miurla/morphic": {
+    "stars": 8415,
+    "lastCommit": "2025-12-15",
+    "updated_at": "2025-12-17T21:58:46.072Z"
+  },
+  "sqlchat/sqlchat": {
+    "stars": 5555,
+    "lastCommit": "2025-07-12",
+    "updated_at": "2025-12-17T21:58:46.545Z"
+  },
+  "lmg-anon/mikupad": {
+    "stars": 671,
+    "lastCommit": "2025-12-08",
+    "updated_at": "2025-12-17T21:58:47.594Z"
+  },
+  "ErikBjare/gptme": {
+    "stars": 4087,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:47.601Z"
+  },
+  "traefik/traefik": {
+    "stars": 60543,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:48.647Z"
+  },
+  "enjalot/latent-scope": {
+    "stars": 745,
+    "lastCommit": "2025-11-17",
+    "updated_at": "2025-12-17T21:58:48.792Z"
+  },
+  "ggozad/oterm": {
+    "stars": 2285,
+    "lastCommit": "2025-10-15",
+    "updated_at": "2025-12-17T21:58:49.831Z"
+  },
+  "superlinear-ai/raglite": {
+    "stars": 1125,
+    "lastCommit": "2025-12-15",
+    "updated_at": "2025-12-17T21:58:49.906Z"
+  },
+  "mostlygeek/llama-swap": {
+    "stars": 2058,
+    "lastCommit": "2025-12-07",
+    "updated_at": "2025-12-17T21:58:50.804Z"
+  },
+  "LibreTranslate/LibreTranslate": {
+    "stars": 13317,
+    "lastCommit": "2025-12-11",
+    "updated_at": "2025-12-17T21:58:50.917Z"
+  },
+  "open-webui/mcpo": {
+    "stars": 3759,
+    "lastCommit": "2025-10-14",
+    "updated_at": "2025-12-17T21:58:52.056Z"
+  },
+  "metatool-ai/metatool-app": {
+    "stars": 1787,
+    "lastCommit": "2025-12-11",
+    "updated_at": "2025-12-17T21:58:52.470Z"
+  },
+  "supercorp-ai/supergateway": {
+    "stars": 2304,
+    "lastCommit": "2025-10-09",
+    "updated_at": "2025-12-17T21:58:53.156Z"
+  },
+  "LearningCircuit/local-deep-research": {
+    "stars": 3719,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:53.446Z"
+  },
+  "go-skynet/LocalAI": {
+    "stars": 40174,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:54.546Z"
+  },
+  "frdel/agent-zero": {
+    "stars": 12625,
+    "lastCommit": "2025-11-19",
+    "updated_at": "2025-12-17T21:58:54.969Z"
+  },
+  "airweave-ai/airweave": {
+    "stars": 5364,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:56.052Z"
+  },
+  "modular/max": {
+    "stars": 25357,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:56.112Z"
+  },
+  "unslothai/unsloth": {
+    "stars": 49554,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:57.286Z"
+  },
+  "docling-project/docling": {
+    "stars": 47051,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:57.536Z"
+  },
+  "windmill-labs/windmill": {
+    "stars": 15334,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:58.340Z"
+  },
+  "presenton/presenton": {
+    "stars": 3353,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:58.556Z"
+  },
+  "karakeep-app/karakeep": {
+    "stars": 21900,
+    "lastCommit": "2025-12-15",
+    "updated_at": "2025-12-17T21:58:59.616Z"
+  },
+  "netdata/netdata": {
+    "stars": 77048,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:58:59.727Z"
+  },
+  "srbhr/Resume-Matcher": {
+    "stars": 25195,
+    "lastCommit": "2025-12-06",
+    "updated_at": "2025-12-17T21:59:00.584Z"
+  },
+  "DayuanJiang/next-ai-draw-io": {
+    "stars": 12682,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:59:00.719Z"
+  },
+  "mindsdb/mindsdb": {
+    "stars": 37972,
+    "lastCommit": "2025-12-09",
+    "updated_at": "2025-12-17T21:59:01.694Z"
+  },
+  "simstudioai/sim": {
+    "stars": 23458,
+    "lastCommit": "2025-12-16",
+    "updated_at": "2025-12-17T21:59:01.811Z"
+  },
+  "onyx-dot-app/onyx": {
+    "stars": 16850,
+    "lastCommit": "2025-12-17",
+    "updated_at": "2025-12-17T21:59:02.978Z"
+  },
+  "open-webui/open-webui": {
+    "stars": 118075,
+    "lastCommit": "2025-12-02",
+    "updated_at": "2025-12-17T22:20:32.698Z"
+  }
+}
