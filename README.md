@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-102%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-103%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **102+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **103+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -21,13 +21,13 @@ A list of **102+** LLM services, tools, and infrastructure for running AI locall
 
 - [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (16)
 - [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (17)
-- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (63)
+- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (64)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (10)
 - [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (9)
 - [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (4)
 - [<img src="./assets/terminal.svg" width="16" height="16" style="vertical-align: middle;"> CLI Tools](#-cli-tools) - Terminal-based LLM tools (15)
 - [<img src="./assets/flask-conical.svg" width="16" height="16" style="vertical-align: middle;"> Evaluation](#-evaluation) - Benchmarking and testing (2)
-- [<img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools](#-mcp-tools) - Model Context Protocol (3)
+- [<img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools](#-mcp-tools) - Model Context Protocol (4)
 
 ---
 
@@ -306,6 +306,10 @@ Transforms complex questions into comprehensive, cited reports.
 #### **[LocalAI](https://github.com/go-skynet/LocalAI)**<br>
 <img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 40.8k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2025-12-27 &nbsp;  `Image`<br>
 Complete AI stack for running AI models locally. Allows downloading variety of LLMs, TTS/STT/Image models and running thme locally via Web UI.
+
+#### **[MCP Forge](https://github.com/IBM/mcp-context-forge)**<br>
+<img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 3.0k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-03 &nbsp;  `Tools`<br>
+Gateway and admin UI for managing Model Context Protocol (MCP) servers, tools, and resources.
 
 #### **[mcpo](https://github.com/open-webui/mcpo)**<br>
 <img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 3.8k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2025-10-14 &nbsp;  `Tools`<br>
@@ -610,6 +614,10 @@ A de-facto standard framework for the few-shot evaluation of language models.
 ## <img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools
 
 Model Context Protocol servers and tool integration services.
+
+#### **[MCP Forge](https://github.com/IBM/mcp-context-forge)**<br>
+<img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 3.0k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-03 &nbsp;  `Satellite`<br>
+Gateway and admin UI for managing Model Context Protocol (MCP) servers, tools, and resources.
 
 #### **[mcpo](https://github.com/open-webui/mcpo)**<br>
 <img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 3.8k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2025-10-14 &nbsp;  `Satellite`<br>

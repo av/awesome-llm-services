@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Curated list of self-hostable LLM services, tools, and infrastructure",
   "type": "module",
-  "scripts": {
-    "generate": "deno run -A generate.ts"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/av/awesome-llm-services"

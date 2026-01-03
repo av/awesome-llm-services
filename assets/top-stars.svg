@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="565" viewBox="0 0 800 565">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  </style>
+  <rect width="800" height="565" fill="none" />
+  <text x="0" y="15" fill="#7d8590" font-family="sans-serif" font-size="12" font-weight="bold">TOP 15 BY STARS</text>
+  
+    <g transform="translate(0, 30)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">autogpt</text>
+      <rect x="250" y="5" width="450" height="20" fill="#3b82f6" rx="4" />
+      <text x="710" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">180,552</text>
+    </g>\n
+    <g transform="translate(0, 65)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">n8n</text>
+      <rect x="250" y="5" width="411.67004519473613" height="20" fill="#3b82f6" rx="4" />
+      <text x="671.6700451947361" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">165,173</text>
+    </g>\n
+    <g transform="translate(0, 100)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">Ollama</text>
+      <rect x="250" y="5" width="394.73448092516287" height="20" fill="#3b82f6" rx="4" />
+      <text x="654.7344809251629" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">158,378</text>
+    </g>\n
+    <g transform="translate(0, 135)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">LangFlow</text>
+      <rect x="250" y="5" width="354.45301076698127" height="20" fill="#3b82f6" rx="4" />
+      <text x="614.4530107669813" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">142,216</text>
+    </g>\n
+    <g transform="translate(0, 170)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">Dify</text>
+      <rect x="250" y="5" width="308.7357104878373" height="20" fill="#3b82f6" rx="4" />
+      <text x="568.7357104878373" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">123,873</text>
+    </g>\n
+    <g transform="translate(0, 205)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">Open WebUI</text>
+      <rect x="250" y="5" width="296.9418782400638" height="20" fill="#3b82f6" rx="4" />
+      <text x="556.9418782400637" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">119,141</text>
+    </g>\n
+    <g transform="translate(0, 240)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">ComfyUI</text>
+      <rect x="250" y="5" width="245.09088794363947" height="20" fill="#3b82f6" rx="4" />
+      <text x="505.0908879436395" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">98,337</text>
+    </g>\n
+    <g transform="translate(0, 275)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">llama.cpp</text>
+      <rect x="250" y="5" width="229.61584474278877" height="20" fill="#3b82f6" rx="4" />
+      <text x="489.6158447427888" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">92,128</text>
+    </g>\n
+    <g transform="translate(0, 310)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">Home Assistant</text>
+      <rect x="250" y="5" width="208.70746377774825" height="20" fill="#3b82f6" rx="4" />
+      <text x="468.7074637777482" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">83,739</text>
+    </g>\n
+    <g transform="translate(0, 345)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">Netdata</text>
+      <rect x="250" y="5" width="192.30027914395853" height="20" fill="#3b82f6" rx="4" />
+      <text x="452.3002791439585" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">77,156</text>
+    </g>\n
+    <g transform="translate(0, 380)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">Lobe Chat</text>
+      <rect x="250" y="5" width="173.35089060215338" height="20" fill="#3b82f6" rx="4" />
+      <text x="433.3508906021534" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">69,553</text>
+    </g>\n
+    <g transform="translate(0, 415)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">vLLM</text>
+      <rect x="250" y="5" width="165.3927954273561" height="20" fill="#3b82f6" rx="4" />
+      <text x="425.3927954273561" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">66,360</text>
+    </g>\n
+    <g transform="translate(0, 450)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">OpenHands</text>
+      <rect x="250" y="5" width="164.41828392928352" height="20" fill="#3b82f6" rx="4" />
+      <text x="424.4182839292835" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">65,969</text>
+    </g>\n
+    <g transform="translate(0, 485)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">Open Interpreter</text>
+      <rect x="250" y="5" width="152.8562408613585" height="20" fill="#3b82f6" rx="4" />
+      <text x="412.8562408613585" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">61,330</text>
+    </g>\n
+    <g transform="translate(0, 520)">
+      <text x="0" y="20" fill="#e6edf3" font-family="sans-serif" font-size="14">Traefik</text>
+      <rect x="250" y="5" width="151.4804599229031" height="20" fill="#3b82f6" rx="4" />
+      <text x="411.4804599229031" y="20" fill="#7d8590" font-family="sans-serif" font-size="13">60,778</text>
+    </g>
+</svg>
