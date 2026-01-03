@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-103%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-104%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **103+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **104+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -19,15 +19,15 @@ A list of **103+** LLM services, tools, and infrastructure for running AI locall
 
 ## Contents
 
-- [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (16)
+- [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (17)
 - [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (17)
-- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (64)
+- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (65)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (10)
 - [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (9)
 - [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (4)
 - [<img src="./assets/terminal.svg" width="16" height="16" style="vertical-align: middle;"> CLI Tools](#-cli-tools) - Terminal-based LLM tools (15)
 - [<img src="./assets/flask-conical.svg" width="16" height="16" style="vertical-align: middle;"> Evaluation](#-evaluation) - Benchmarking and testing (2)
-- [<img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools](#-mcp-tools) - Model Context Protocol (4)
+- [<img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools](#-mcp-tools) - Model Context Protocol (5)
 
 ---
 
@@ -38,6 +38,10 @@ Chat interfaces and web applications for interacting with language models.
 #### **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)**<br>
 <img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 52.6k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2025-12-18 &nbsp;  `RAG`<br>
 The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, and more.
+
+#### **[AstrBot](https://github.com/AstrBotDevs/AstrBot)**<br>
+<img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 14.7k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-03 &nbsp;  `Satellite` `Tools`<br>
+All-in-one agentic chatbot platform for multi-LLM conversations across messaging platforms with plugin system.
 
 #### **[BionicGPT](https://github.com/bionic-gpt/bionic-gpt)**<br>
 <img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 2.3k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2025-12-09<br>
@@ -190,6 +194,10 @@ Aider is AI pair programming in your terminal.
 #### **[Airweave](https://github.com/airweave-ai/airweave)**<br>
 <img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 5.4k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2025-12-26 &nbsp;  `RAG`<br>
 Airweave lets agents search any app by transforming its contents into agent-ready knowledge.
+
+#### **[AstrBot](https://github.com/AstrBotDevs/AstrBot)**<br>
+<img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 14.7k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-03 &nbsp;  `Frontend` `Tools`<br>
+All-in-one agentic chatbot platform for multi-LLM conversations across messaging platforms with plugin system.
 
 #### **[autogpt](https://github.com/Significant-Gravitas/AutoGPT)**<br>
 <img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 180.6k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2025-12-18<br>
@@ -614,6 +622,10 @@ A de-facto standard framework for the few-shot evaluation of language models.
 ## <img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools
 
 Model Context Protocol servers and tool integration services.
+
+#### **[AstrBot](https://github.com/AstrBotDevs/AstrBot)**<br>
+<img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 14.7k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-03 &nbsp;  `Satellite` `Frontend`<br>
+All-in-one agentic chatbot platform for multi-LLM conversations across messaging platforms with plugin system.
 
 #### **[MCP Forge](https://github.com/IBM/mcp-context-forge)**<br>
 <img src="./assets/star.svg" width="16" height="16" style="vertical-align: middle;"> 3.0k &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-03 &nbsp;  `Satellite`<br>
