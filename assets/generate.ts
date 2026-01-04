@@ -13,9 +13,16 @@
 const HARBOR_METADATA_URL =
   "https://raw.githubusercontent.com/av/harbor/main/app/src/serviceMetadata.ts";
 
+// TypeScript/IDE friendliness: this script intentionally runs in multiple runtimes.
+// These declarations avoid requiring Deno/Node type packages for basic editing.
+declare const Deno: any;
+declare const process: any;
+
 interface GitHubStats {
   stars: number;
   lastCommit: string;
+  openIssues: number;
+  totalIssues: number;
 }
 
 interface CachedGitHubStats extends GitHubStats {
@@ -42,6 +49,7 @@ async function loadStatsCache(): Promise<StatsCache> {
       const content = await Deno.readTextFile(STATS_CACHE_FILE);
       return JSON.parse(content);
     } else {
+      // @ts-ignore - Node typings are optional for this generator
       const fs = await import("node:fs/promises");
       const content = await fs.readFile(STATS_CACHE_FILE, "utf-8");
       return JSON.parse(content);
@@ -56,6 +64,7 @@ async function saveStatsCache(cache: StatsCache): Promise<void> {
   if (typeof Deno !== "undefined") {
     await Deno.writeTextFile(STATS_CACHE_FILE, content);
   } else {
+    // @ts-ignore - Node typings are optional for this generator
     const fs = await import("node:fs/promises");
     await fs.writeFile(STATS_CACHE_FILE, content, "utf-8");
   }
@@ -64,6 +73,10 @@ async function saveStatsCache(cache: StatsCache): Promise<void> {
 function isCacheEntryValid(entry: CachedGitHubStats): boolean {
   const updatedAt = new Date(entry.updated_at).getTime();
   const now = Date.now();
+  // If new fields are missing (e.g., older cache format), treat as invalid
+  // so we can refresh without breaking downstream visuals.
+  if (typeof (entry as any).openIssues !== "number") return false;
+  if (typeof (entry as any).totalIssues !== "number") return false;
   return now - updatedAt < CACHE_TTL_MS;
 }
 
@@ -80,6 +93,59 @@ function getGitHubHeaders(): HeadersInit {
     headers["Authorization"] = `Bearer ${GITHUB_PAT}`;
   }
   return headers;
+}
+
+async function fetchGraphQLWithRateLimit(
+  query: string,
+  variables: Record<string, unknown>,
+  retries = MAX_RETRIES
+): Promise<any | null> {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    const response = await fetch("https://api.github.com/graphql", {
+      method: "POST",
+      headers: {
+        ...getGitHubHeaders(),
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ query, variables }),
+    });
+
+    // GraphQL can return 200 with errors in the body.
+    if (response.status === 403 || response.status === 429) {
+      const reset = response.headers.get("x-ratelimit-reset");
+      const retryAfter = response.headers.get("retry-after");
+      let waitMs: number;
+
+      if (reset) {
+        waitMs = Math.max(0, parseInt(reset, 10) * 1000 - Date.now()) + 1000;
+      } else if (retryAfter) {
+        waitMs = parseInt(retryAfter, 10) * 1000;
+      } else {
+        // Secondary rate limit / abuse detection often doesn't include reset.
+        waitMs = Math.max(10_000, Math.pow(2, attempt) * 1000);
+      }
+
+      console.log(
+        `⚠️  Rate limited (GraphQL ${response.status}). Attempt ${attempt}/${retries}. Waiting ${Math.ceil(waitMs / 1000)}s...`
+      );
+      await sleep(waitMs);
+      continue;
+    }
+
+    await checkRateLimit(response);
+
+    if (!response.ok) {
+      return null;
+    }
+
+    const data = await response.json();
+    if (data?.errors?.length) {
+      return null;
+    }
+    return data?.data ?? null;
+  }
+
+  return null;
 }
 
 async function checkRateLimit(response: Response): Promise<void> {
@@ -167,6 +233,27 @@ function parseGitHubRepo(url: string): { owner: string; repo: string } | null {
   return { owner: match[1], repo: match[2].replace(/\.git$/, "") };
 }
 
+function formatNumberCompact(n: number): string {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}m`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k`;
+  return n.toString();
+}
+
+function daysSinceISODate(dateStr: string): number | null {
+  const d = new Date(dateStr);
+  if (Number.isNaN(d.getTime())) return null;
+  return Math.max(0, Math.floor((Date.now() - d.getTime()) / (24 * 60 * 60 * 1000)));
+}
+
+function escapeXml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
 async function fetchGitHubStats(url: string, index: number, total: number): Promise<GitHubStats | null> {
   const parsed = parseGitHubRepo(url);
   if (!parsed) return null;
@@ -192,38 +279,62 @@ async function fetchGitHubStats(url: string, index: number, total: number): Prom
     const staleInfo = cachedEntry ? ` (stale: ${cachedEntry.updated_at})` : "";
     console.log(`  [${index}/${total}] Fetching ${cacheKey}...${staleInfo} (rate limit: ${rateLimitRemaining})`);
 
-    const repoResponse = await fetchWithRateLimit(
-      `https://api.github.com/repos/${parsed.owner}/${parsed.repo}`
-    );
-
-    if (!repoResponse || !repoResponse.ok) {
-      console.log(`  [${index}/${total}] ${cacheKey} - failed`);
-      // Return stale data if fetch fails
-      if (cachedEntry) {
-        const { updated_at, ...stats } = cachedEntry;
-        console.log(`  [${index}/${total}] ${cacheKey} - using stale cache`);
-        return stats;
+    // Prefer GraphQL to avoid Search endpoint rate limits and reduce calls.
+    const q = `query($owner: String!, $name: String!) {
+      repository(owner: $owner, name: $name) {
+        stargazerCount
+        issuesOpen: issues(states: OPEN) { totalCount }
+        issuesClosed: issues(states: CLOSED) { totalCount }
+        defaultBranchRef {
+          target {
+            ... on Commit { committedDate }
+          }
+        }
       }
-      return null;
-    }
+    }`;
 
-    const repoData = await repoResponse.json();
-    const stars = repoData.stargazers_count;
+    const gqlData = await fetchGraphQLWithRateLimit(q, {
+      owner: parsed.owner,
+      name: parsed.repo,
+    });
 
-    const commitsResponse = await fetchWithRateLimit(
-      `https://api.github.com/repos/${parsed.owner}/${parsed.repo}/commits?per_page=1`
-    );
-
+    let stars = 0;
+    let openIssues = 0;
+    let totalIssues = 0;
     let lastCommit = "";
-    if (commitsResponse?.ok) {
-      const commits = await commitsResponse.json();
-      if (commits.length > 0) {
-        const date = new Date(commits[0].commit.committer.date);
-        lastCommit = date.toISOString().split("T")[0];
+
+    const repo = gqlData?.repository;
+    if (repo) {
+      stars = repo.stargazerCount ?? 0;
+      openIssues = repo.issuesOpen?.totalCount ?? 0;
+      const closed = repo.issuesClosed?.totalCount ?? 0;
+      totalIssues = openIssues + closed;
+
+      const committedDate = repo.defaultBranchRef?.target?.committedDate;
+      if (committedDate) {
+        lastCommit = new Date(committedDate).toISOString().split("T")[0];
       }
+    } else {
+      // Fallback to REST (less accurate for issues; may include PRs)
+      const repoResponse = await fetchWithRateLimit(
+        `https://api.github.com/repos/${parsed.owner}/${parsed.repo}`
+      );
+      if (!repoResponse || !repoResponse.ok) {
+        console.log(`  [${index}/${total}] ${cacheKey} - failed`);
+        if (cachedEntry) {
+          const { updated_at, ...stats } = cachedEntry;
+          console.log(`  [${index}/${total}] ${cacheKey} - using stale cache`);
+          return stats;
+        }
+        return null;
+      }
+      const repoData = await repoResponse.json();
+      stars = repoData.stargazers_count ?? 0;
+      openIssues = repoData.open_issues_count ?? 0;
+      totalIssues = openIssues;
     }
 
-    const stats = { stars, lastCommit };
+    const stats = { stars, lastCommit, openIssues, totalIssues };
     githubStatsCache.set(cacheKey, stats);
 
     // Update persistent cache with timestamp
@@ -265,9 +376,12 @@ interface ServiceEntry {
   wikiUrl?: string;
   tooltip?: string;
   githubStats?: GitHubStats | null;
+  relevance?: number | null;
 }
 
-const rawServices: Omit<ServiceEntry, "githubStats">[] = Object.entries(serviceMetadata)
+const metadata = serviceMetadata as Record<string, any>;
+
+const rawServices: Omit<ServiceEntry, "githubStats">[] = Object.entries(metadata)
   .map(([handle, s]) => ({
     handle,
     name: s.name ?? handle,
@@ -304,6 +418,64 @@ const services: ServiceEntry[] = rawServices.map(s => ({
   githubStats: githubStatsMap.get(s.handle) ?? null,
 }));
 
+function clamp01(n: number): number {
+  return Math.max(0, Math.min(1, n));
+}
+
+function computeRelevanceScores(all: ServiceEntry[]): Map<string, number> {
+  const candidates = all
+    .map((s) => {
+      const gh = s.projectUrl ? parseGitHubRepo(s.projectUrl) : null;
+      if (!gh) return null;
+      const st = s.githubStats;
+      if (!st) return null;
+      if (!st.lastCommit) return null;
+
+      const days = daysSinceISODate(st.lastCommit);
+      if (days === null) return null;
+
+      return { handle: s.handle, stars: st.stars, days };
+    })
+    .filter((c): c is { handle: string; stars: number; days: number } => c !== null);
+
+  if (candidates.length === 0) return new Map();
+
+  // Metric: Popularity (Log Stars) * Recency (Half-life decay)
+  // Half-life: 90 days.
+  // - A repo updated today gets 100% of its popularity score.
+  // - A repo updated 3 months ago gets 50%.
+  // - A repo updated 6 months ago gets 25%.
+  const HALF_LIFE_DAYS = 90;
+
+  const scored = candidates.map(c => {
+    // Logarithmic popularity: 10 stars=1, 100=2, 1000=3, etc.
+    // We use max(1, stars) to avoid log(0).
+    const popularity = Math.log10(Math.max(1, c.stars));
+
+    // Exponential decay
+    const recency = Math.pow(0.5, c.days / HALF_LIFE_DAYS);
+
+    return { handle: c.handle, score: popularity * recency };
+  });
+
+  // Normalize against the highest scoring repo in the list
+  const maxScore = Math.max(...scored.map(s => s.score));
+  const scores = new Map<string, number>();
+
+  if (maxScore > 0) {
+    for (const item of scored) {
+      scores.set(item.handle, item.score / maxScore);
+    }
+  }
+
+  return scores;
+}
+
+const relevanceMap = computeRelevanceScores(services);
+services.forEach((s) => {
+  s.relevance = relevanceMap.get(s.handle) ?? null;
+});
+
 console.log(`✓ GitHub stats fetched (${githubStatsCache.size} repos)`);
 
 const documentedServices = services.filter(s => s.wikiUrl && s.tooltip);
@@ -314,6 +486,48 @@ const byTag = (tag: string, onlyDocumented = true): ServiceEntry[] => {
     .filter((s) => s.tags.includes(tag))
     .sort((a, b) => a.name.localeCompare(b.name));
 };
+
+function encodeBadgePart(s: string): string {
+  // Shields expects: spaces -> %20, '-' needs escaping as '--', '_' as '__'
+  // https://shields.io/badges/static-badge
+  return encodeURIComponent(s)
+    .replace(/-/g, "--")
+    .replace(/_/g, "__");
+}
+
+function tagBadges(tags: string[], primaryTag?: string): string {
+  // Show ALL tags (including the primary tag). Render as a simple label badge
+  // (no leading "tag" label). Use Shields' "message-only" badge form.
+  if (tags.length === 0) return "";
+
+  const color = "000000";
+  return tags
+    .map((t) => {
+      const label = encodeBadgePart(t);
+      // Message-only badge: /badge/<label>-<color>
+      const src = `https://img.shields.io/badge/${label}-${color}?style=flat`;
+      return `<img src="${src}" alt="${escapeXml(t)}">`;
+    })
+    .join(" ");
+}
+
+function relevanceStat(score01: number): string {
+  const pct = Math.round(clamp01(score01) * 100);
+  return `${icon("rocket")} ${pct}%`;
+}
+
+type StarBucket = "b0" | "b1" | "b2" | "b3";
+function starBucket(stars: number): StarBucket {
+  if (stars < 100) return "b0";
+  if (stars < 1_000) return "b1";
+  if (stars < 10_000) return "b2";
+  return "b3";
+}
+
+function starIcon(stars: number, size = 16): string {
+  const bucket = starBucket(stars);
+  return `<img src="./assets/star-${bucket}.svg" width="${size}" height="${size}" style="vertical-align: middle;">`;
+}
 
 const frontends = byTag(HST.frontend);
 const backends = byTag(HST.backend);
@@ -335,41 +549,58 @@ const getLink = (s: ServiceEntry): string => {
   return `**${s.name}**`;
 };
 
-const formatTags = (tags: string[], primaryTag: string): string => {
-  const excluded = [
-    HST.partial,
-    HST.builtin,
-  ]
-  const otherTags = tags.filter(t => t !== primaryTag && excluded.indexOf(t) === -1);
-  if (otherTags.length === 0) return "";
-  return ` \`${otherTags.join("\` \`")}\``;
-};
-
 const renderService = (s: ServiceEntry, primaryTag?: string): string => {
   const link = getLink(s);
   const description = s.tooltip ?? "";
-  const tags = primaryTag ? formatTags(s.tags, primaryTag) : "";
+
+  const gh = s.projectUrl ? parseGitHubRepo(s.projectUrl) : null;
+  const tagsLine = tagBadges(s.tags, primaryTag);
 
   let statsLine = "";
   if (s.githubStats) {
-    const stars = s.githubStats.stars >= 1000
-      ? `${(s.githubStats.stars / 1000).toFixed(1)}k`
-      : s.githubStats.stars.toString();
-    const parts = [`${icon("star")} ${stars}`];
+    const open = s.githubStats.openIssues ?? 0;
+    const totalIssues = s.githubStats.totalIssues ?? open;
+    const closed = Math.max(0, totalIssues - open);
+
+    const parts: string[] = [];
+
+    // Relevance belongs in the top stats row.
+    if (typeof s.relevance === "number") {
+      parts.push(relevanceStat(s.relevance));
+    }
+
+    parts.push(`${starIcon(s.githubStats.stars)} ${formatNumberCompact(s.githubStats.stars)}`);
+    parts.push(
+      `${icon("circle-dot")} issues ${formatNumberCompact(totalIssues)} (${formatNumberCompact(open)} open, ${formatNumberCompact(closed)} closed)`
+    );
     if (s.githubStats.lastCommit) {
       parts.push(`${icon("git-commit-horizontal")} ${s.githubStats.lastCommit}`);
     }
-
-    if (tags) {
-      parts.push(tags);
-    }
-
     statsLine = parts.join(" &nbsp; ");
   }
+
+  let signalsLine = "";
+  if (gh) {
+    const base = `https://img.shields.io`;
+    // Keep "secondary" badges muted so the row is readable.
+    const muted = "7d8590";
+    const releaseBadge = `${base}/github/v/release/${gh.owner}/${gh.repo}?style=flat&label=release&color=${muted}`;
+    const licenseBadge = `${base}/github/license/${gh.owner}/${gh.repo}?style=flat&label=license&color=${muted}`;
+
+    const badgeImg = (src: string, alt: string) => `<img src="${src}" alt="${alt}">`;
+    signalsLine = [
+      `<a href="${s.projectUrl}">${badgeImg(releaseBadge, `${gh.owner}/${gh.repo} release`)}</a>`,
+      `<a href="${s.projectUrl}">${badgeImg(licenseBadge, `${gh.owner}/${gh.repo} license`)}</a>`,
+    ].join(" ");
+  }
+
+  // Meta row: secondary visual signals + tags.
+  const metaLine = [signalsLine, tagsLine].filter(Boolean).join(" &nbsp; ");
 
   const lines = [
     `#### **${link}**`,
     statsLine,
+    metaLine,
     description,
   ].filter(Boolean);
 
@@ -394,6 +625,8 @@ const ICON_COLOR = "#7d8590";
 const ICONS_USED = [
   "star",
   "git-commit-horizontal",
+  "circle-dot",
+  "rocket",
   "message-square",
   "cpu",
   "satellite",
@@ -421,6 +654,7 @@ async function downloadIcons(): Promise<void> {
       if (typeof Deno !== "undefined") {
         await Deno.writeTextFile(filePath, colored);
       } else {
+        // @ts-ignore - Node typings are optional for this generator
         const fs = await import("node:fs/promises");
         await fs.writeFile(filePath, colored, "utf-8");
       }
@@ -455,6 +689,8 @@ A list of **${services.length}+** LLM services, tools, and infrastructure for ru
 - Friendly to containerization (Docker, Podman, etc.)
 - Relates to homelab or personal AI use cases
 - Well-documented with setup instructions
+
+Relevance score (${icon('rocket')} 0–100%): a composite metric of **Popularity** (logarithm of stars) and **Recency** (exponential decay with a 90-day half-life). This highlights projects that are both widely recognized and actively maintained.
 
 ## Contents
 
@@ -535,14 +771,15 @@ This list is auto-generated from [Harbor's service metadata](https://github.com/
 
 const outputPath = new URL("./README.md", import.meta.url).pathname;
 
-const writeFile = async (path: string, content: string) => {
+async function writeFile(path: string, content: string) {
   if (typeof Deno !== "undefined") {
     await Deno.writeTextFile(path, content);
   } else {
+    // @ts-ignore - Node typings are optional for this generator
     const fs = await import("node:fs/promises");
     await fs.writeFile(path, content, "utf-8");
   }
-};
+}
 
 await writeFile(outputPath, readme);
 
