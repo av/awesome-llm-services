@@ -663,5 +663,19 @@
     "openIssues": 262,
     "totalIssues": 2589,
     "updated_at": "2026-01-04T22:37:11.564Z"
+  },
+  "khoj-ai/khoj": {
+    "stars": 32112,
+    "lastCommit": "2026-01-03",
+    "openIssues": 75,
+    "totalIssues": 557,
+    "updated_at": "2026-01-06T18:20:04.089Z"
+  },
+  "photoprism/photoprism": {
+    "stars": 39062,
+    "lastCommit": "2026-01-06",
+    "openIssues": 415,
+    "totalIssues": 2459,
+    "updated_at": "2026-01-06T18:20:04.089Z"
   }
 }

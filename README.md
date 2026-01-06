@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-106%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-108%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **106+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **108+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -23,7 +23,7 @@ Relevance score (<img src="./assets/rocket.svg" width="16" height="16" style="ve
 
 - [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (17)
 - [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (17)
-- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (67)
+- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (69)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (12)
 - [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (9)
 - [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (4)
@@ -335,6 +335,11 @@ A modern load testing tool, using Go and JavaScript - https://k6.io
 <a href="https://github.com/karakeep-app/karakeep"><img src="https://img.shields.io/github/v/release/karakeep-app/karakeep?style=flat&label=release&color=7d8590" alt="karakeep-app/karakeep release"></a> <a href="https://github.com/karakeep-app/karakeep"><img src="https://img.shields.io/github/license/karakeep-app/karakeep?style=flat&label=license&color=7d8590" alt="karakeep-app/karakeep license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"><br>
 Self-hosted bookmark manager with AI-powered automatic tagging via OpenAI or Ollama.
 
+#### **[Khoj](https://github.com/khoj-ai/khoj)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 87% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 32.1k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 557 (75 open, 482 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-03<br>
+<a href="https://github.com/khoj-ai/khoj"><img src="https://img.shields.io/github/v/release/khoj-ai/khoj?style=flat&label=release&color=7d8590" alt="khoj-ai/khoj release"></a> <a href="https://github.com/khoj-ai/khoj"><img src="https://img.shields.io/github/license/khoj-ai/khoj?style=flat&label=license&color=7d8590" alt="khoj-ai/khoj license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/RAG-000000?style=flat" alt="RAG"><br>
+AI second brain for chat, search, and agents with your docs. Supports local and cloud LLMs.
+
 #### **[KoboldCpp](https://github.com/LostRuins/koboldcpp)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 77% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 9.2k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.2k (388 open, 856 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-04<br>
 <a href="https://github.com/LostRuins/koboldcpp"><img src="https://img.shields.io/github/v/release/LostRuins/koboldcpp?style=flat&label=release&color=7d8590" alt="LostRuins/koboldcpp release"></a> <a href="https://github.com/LostRuins/koboldcpp"><img src="https://img.shields.io/github/license/LostRuins/koboldcpp?style=flat&label=license&color=7d8590" alt="LostRuins/koboldcpp license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Frontend-000000?style=flat" alt="Frontend"> <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"><br>
@@ -464,6 +469,11 @@ Optimising LLM proxy that implements many advanced workflows to boost the perfor
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 85% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 28.0k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 591 (168 open, 423 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-03<br>
 <a href="https://github.com/ItzCrazyKns/Perplexica"><img src="https://img.shields.io/github/v/release/ItzCrazyKns/Perplexica?style=flat&label=release&color=7d8590" alt="ItzCrazyKns/Perplexica release"></a> <a href="https://github.com/ItzCrazyKns/Perplexica"><img src="https://img.shields.io/github/license/ItzCrazyKns/Perplexica?style=flat&label=license&color=7d8590" alt="ItzCrazyKns/Perplexica license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/RAG-000000?style=flat" alt="RAG"><br>
 An AI-powered search engine. It is an Open source alternative to Perplexity AI.
+
+#### **[PhotoPrism](https://github.com/photoprism/photoprism)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 90% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 39.1k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 2.5k (415 open, 2.0k closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-01-06<br>
+<a href="https://github.com/photoprism/photoprism"><img src="https://img.shields.io/github/v/release/photoprism/photoprism?style=flat&label=release&color=7d8590" alt="photoprism/photoprism release"></a> <a href="https://github.com/photoprism/photoprism"><img src="https://img.shields.io/github/license/photoprism/photoprism?style=flat&label=license&color=7d8590" alt="photoprism/photoprism license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Image-000000?style=flat" alt="Image"><br>
+AI-powered photo management app with face recognition, image classification, and automatic organization.
 
 #### **[Plandex](https://github.com/plandex-ai/plandex)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 39% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 14.8k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 194 (28 open, 166 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2025-10-03<br>
