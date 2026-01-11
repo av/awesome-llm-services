@@ -374,6 +374,7 @@ interface ServiceEntry {
   tags: string[];
   projectUrl?: string;
   wikiUrl?: string;
+  logo?: string;
   tooltip?: string;
   githubStats?: GitHubStats | null;
   relevance?: number | null;
@@ -388,6 +389,7 @@ const rawServices: Omit<ServiceEntry, "githubStats">[] = Object.entries(metadata
     tags: (s.tags ?? []) as string[],
     projectUrl: s.projectUrl,
     wikiUrl: s.wikiUrl,
+    logo: s.logo,
     tooltip: s.tooltip ?? "",
   }))
   .filter((s) => !!s.name);
@@ -597,8 +599,9 @@ const renderService = (s: ServiceEntry, primaryTag?: string): string => {
   // Meta row: secondary visual signals + tags.
   const metaLine = [signalsLine, tagsLine].filter(Boolean).join(" &nbsp; ");
 
+  const logoImg = s.logo ? `<img src="${s.logo}" width="16" height="16" style="vertical-align: middle;"> ` : "";
   const lines = [
-    `#### **${link}**`,
+    `#### ${logoImg}**${link}**`,
     statsLine,
     metaLine,
     description,
