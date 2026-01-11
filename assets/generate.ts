@@ -599,7 +599,7 @@ const renderService = (s: ServiceEntry, primaryTag?: string): string => {
   // Meta row: secondary visual signals + tags.
   const metaLine = [signalsLine, tagsLine].filter(Boolean).join(" &nbsp; ");
 
-  const logoImg = s.logo ? `<img src="${s.logo}" width="20" height="20" style="vertical-align: middle;"> ` : "";
+  const logoImg = s.logo ? `<img src="${s.logo}" width="14" height="14" style="vertical-align: middle;"> ` : "";
   const lines = [
     `#### ${logoImg}**${link}**`,
     statsLine,
