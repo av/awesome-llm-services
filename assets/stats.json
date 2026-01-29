@@ -1,688 +1,695 @@
 {
   "sigoden/aichat": {
-    "stars": 9105,
-    "lastCommit": "2026-01-06",
-    "openIssues": 21,
-    "totalIssues": 632,
-    "updated_at": "2026-01-19T21:19:10.078Z"
+    "stars": 9170,
+    "lastCommit": "2026-01-29",
+    "openIssues": 23,
+    "totalIssues": 635,
+    "updated_at": "2026-01-29T20:15:36.421Z"
   },
   "paul-gauthier/aider": {
-    "stars": 39902,
+    "stars": 40171,
     "lastCommit": "2026-01-19",
-    "openIssues": 1130,
-    "totalIssues": 3910,
-    "updated_at": "2026-01-19T21:19:10.100Z"
+    "openIssues": 1142,
+    "totalIssues": 3933,
+    "updated_at": "2026-01-29T20:15:36.454Z"
   },
   "lyogavin/airllm": {
-    "stars": 7465,
+    "stars": 9773,
     "lastCommit": "2025-09-03",
-    "openIssues": 119,
-    "totalIssues": 198,
-    "updated_at": "2026-01-19T21:19:10.102Z"
+    "openIssues": 121,
+    "totalIssues": 200,
+    "updated_at": "2026-01-29T20:15:36.442Z"
   },
   "PygmalionAI/aphrodite-engine": {
-    "stars": 1625,
-    "lastCommit": "2026-01-19",
+    "stars": 1641,
+    "lastCommit": "2026-01-21",
     "openIssues": 80,
     "totalIssues": 244,
-    "updated_at": "2026-01-19T21:19:10.138Z"
+    "updated_at": "2026-01-29T20:15:36.465Z"
   },
   "Significant-Gravitas/AutoGPT": {
-    "stars": 181274,
-    "lastCommit": "2026-01-14",
-    "openIssues": 226,
-    "totalIssues": 3674,
-    "updated_at": "2026-01-19T21:19:10.130Z"
+    "stars": 181547,
+    "lastCommit": "2026-01-29",
+    "openIssues": 235,
+    "totalIssues": 3691,
+    "updated_at": "2026-01-29T20:15:36.580Z"
   },
   "av/harbor": {
-    "stars": 2313,
-    "lastCommit": "2026-01-17",
+    "stars": 2388,
+    "lastCommit": "2026-01-27",
     "openIssues": 47,
     "totalIssues": 162,
-    "updated_at": "2026-01-19T21:19:10.257Z"
+    "updated_at": "2026-01-29T20:15:36.480Z"
   },
   "bionic-gpt/bionic-gpt": {
-    "stars": 2287,
-    "lastCommit": "2026-01-19",
-    "openIssues": 17,
+    "stars": 2292,
+    "lastCommit": "2026-01-29",
+    "openIssues": 0,
     "totalIssues": 405,
-    "updated_at": "2026-01-19T21:19:10.304Z"
+    "updated_at": "2026-01-29T20:15:36.456Z"
   },
   "browser-use/web-ui": {
-    "stars": 15479,
+    "stars": 15538,
     "lastCommit": "2025-08-31",
-    "openIssues": 259,
-    "totalIssues": 433,
-    "updated_at": "2026-01-19T21:19:10.080Z"
+    "openIssues": 263,
+    "totalIssues": 437,
+    "updated_at": "2026-01-29T20:15:36.448Z"
   },
   "huggingface/chat-ui": {
-    "stars": 10435,
-    "lastCommit": "2026-01-19",
-    "openIssues": 325,
-    "totalIssues": 717,
-    "updated_at": "2026-01-19T21:19:10.493Z"
+    "stars": 10466,
+    "lastCommit": "2026-01-29",
+    "openIssues": 171,
+    "totalIssues": 721,
+    "updated_at": "2026-01-29T20:15:36.829Z"
   },
   "pgibler/cmdh": {
     "stars": 121,
     "lastCommit": "2025-08-23",
     "openIssues": 8,
     "totalIssues": 15,
-    "updated_at": "2026-01-19T21:19:11.060Z"
+    "updated_at": "2026-01-29T20:15:36.838Z"
   },
   "comfyanonymous/ComfyUI": {
-    "stars": 100744,
-    "lastCommit": "2026-01-19",
-    "openIssues": 3278,
-    "totalIssues": 7601,
-    "updated_at": "2026-01-19T21:19:10.625Z"
+    "stars": 101865,
+    "lastCommit": "2026-01-29",
+    "openIssues": 3334,
+    "totalIssues": 7696,
+    "updated_at": "2026-01-29T20:15:36.890Z"
   },
   "danielmiessler/fabric": {
-    "stars": 38344,
-    "lastCommit": "2026-01-19",
-    "openIssues": 22,
-    "totalIssues": 812,
-    "updated_at": "2026-01-19T21:19:10.480Z"
+    "stars": 38669,
+    "lastCommit": "2026-01-28",
+    "openIssues": 21,
+    "totalIssues": 819,
+    "updated_at": "2026-01-29T20:15:36.791Z"
   },
   "fmaclen/hollama": {
-    "stars": 1062,
+    "stars": 1067,
     "lastCommit": "2025-10-12",
     "openIssues": 65,
     "totalIssues": 203,
-    "updated_at": "2026-01-19T21:19:10.532Z"
+    "updated_at": "2026-01-29T20:15:36.877Z"
   },
   "jupyterlab/jupyterlab": {
-    "stars": 14985,
-    "lastCommit": "2026-01-19",
-    "openIssues": 2430,
-    "totalIssues": 9043,
-    "updated_at": "2026-01-19T21:19:10.620Z"
+    "stars": 15002,
+    "lastCommit": "2026-01-29",
+    "openIssues": 2433,
+    "totalIssues": 9060,
+    "updated_at": "2026-01-29T20:15:36.876Z"
   },
   "kvcache-ai/ktransformers": {
-    "stars": 16363,
-    "lastCommit": "2026-01-16",
-    "openIssues": 395,
-    "totalIssues": 1132,
-    "updated_at": "2026-01-19T21:19:10.649Z"
+    "stars": 16417,
+    "lastCommit": "2026-01-28",
+    "openIssues": 396,
+    "totalIssues": 1141,
+    "updated_at": "2026-01-29T20:15:37.047Z"
   },
   "langfuse/langfuse": {
-    "stars": 20802,
-    "lastCommit": "2026-01-19",
-    "openIssues": 312,
-    "totalIssues": 2219,
-    "updated_at": "2026-01-19T21:19:10.601Z"
+    "stars": 21268,
+    "lastCommit": "2026-01-29",
+    "openIssues": 310,
+    "totalIssues": 2244,
+    "updated_at": "2026-01-29T20:15:37.097Z"
   },
   "danny-avila/LibreChat": {
-    "stars": 33190,
-    "lastCommit": "2026-01-18",
-    "openIssues": 218,
-    "totalIssues": 3983,
-    "updated_at": "2026-01-19T21:19:10.661Z"
+    "stars": 33458,
+    "lastCommit": "2026-01-28",
+    "openIssues": 223,
+    "totalIssues": 4038,
+    "updated_at": "2026-01-29T20:15:36.995Z"
   },
   "EleutherAI/lm-evaluation-harness": {
-    "stars": 11231,
-    "lastCommit": "2026-01-19",
-    "openIssues": 539,
-    "totalIssues": 1589,
-    "updated_at": "2026-01-19T21:19:11.000Z"
+    "stars": 11312,
+    "lastCommit": "2026-01-27",
+    "openIssues": 546,
+    "totalIssues": 1600,
+    "updated_at": "2026-01-29T20:15:37.243Z"
   },
   "ggerganov/llama.cpp": {
-    "stars": 93316,
-    "lastCommit": "2026-01-19",
-    "openIssues": 361,
-    "totalIssues": 6713,
-    "updated_at": "2026-01-19T21:19:10.923Z"
+    "stars": 93963,
+    "lastCommit": "2026-01-29",
+    "openIssues": 370,
+    "totalIssues": 6799,
+    "updated_at": "2026-01-29T20:15:37.185Z"
   },
   "lobehub/lobe-chat": {
-    "stars": 70299,
-    "lastCommit": "2026-01-19",
-    "openIssues": 1031,
-    "totalIssues": 5143,
-    "updated_at": "2026-01-19T21:19:10.971Z"
+    "stars": 71132,
+    "lastCommit": "2026-01-29",
+    "openIssues": 1012,
+    "totalIssues": 5210,
+    "updated_at": "2026-01-29T20:15:37.345Z"
   },
   "EricLBuehler/mistral.rs": {
-    "stars": 6361,
-    "lastCommit": "2026-01-19",
-    "openIssues": 176,
-    "totalIssues": 562,
-    "updated_at": "2026-01-19T21:19:10.982Z"
+    "stars": 6432,
+    "lastCommit": "2026-01-28",
+    "openIssues": 179,
+    "totalIssues": 568,
+    "updated_at": "2026-01-29T20:15:37.261Z"
   },
   "zenoverflow/omnichain": {
     "stars": 361,
     "lastCommit": "2025-05-13",
     "openIssues": 1,
     "totalIssues": 11,
-    "updated_at": "2026-01-19T21:19:10.992Z"
+    "updated_at": "2026-01-29T20:15:37.320Z"
   },
   "ollama/ollama": {
-    "stars": 159908,
-    "lastCommit": "2026-01-19",
-    "openIssues": 1889,
-    "totalIssues": 9036,
-    "updated_at": "2026-01-19T21:19:11.049Z"
+    "stars": 161054,
+    "lastCommit": "2026-01-29",
+    "openIssues": 1947,
+    "totalIssues": 9150,
+    "updated_at": "2026-01-29T20:15:37.277Z"
   },
   "OpenInterpreter/open-interpreter": {
-    "stars": 61715,
+    "stars": 61909,
     "lastCommit": "2025-12-05",
     "openIssues": 239,
     "totalIssues": 1042,
-    "updated_at": "2026-01-19T21:19:11.020Z"
+    "updated_at": "2026-01-29T20:15:37.444Z"
   },
   "All-Hands-AI/OpenHands": {
-    "stars": 66781,
-    "lastCommit": "2026-01-19",
-    "openIssues": 141,
-    "totalIssues": 3683,
-    "updated_at": "2026-01-19T21:19:11.056Z"
+    "stars": 67276,
+    "lastCommit": "2026-01-29",
+    "openIssues": 157,
+    "totalIssues": 3738,
+    "updated_at": "2026-01-29T20:15:37.440Z"
   },
   "huggingface/parler-tts": {
-    "stars": 5509,
+    "stars": 5519,
     "lastCommit": "2024-12-10",
     "openIssues": 115,
     "totalIssues": 154,
-    "updated_at": "2026-01-19T21:19:11.246Z"
+    "updated_at": "2026-01-29T20:15:37.460Z"
   },
   "paulrobello/parllama": {
-    "stars": 408,
-    "lastCommit": "2025-12-03",
-    "openIssues": 8,
+    "stars": 412,
+    "lastCommit": "2026-01-28",
+    "openIssues": 7,
     "totalIssues": 39,
-    "updated_at": "2026-01-19T21:19:11.295Z"
+    "updated_at": "2026-01-29T20:15:37.553Z"
   },
   "ItzCrazyKns/Perplexica": {
-    "stars": 28342,
+    "stars": 28636,
     "lastCommit": "2026-01-10",
-    "openIssues": 171,
-    "totalIssues": 600,
-    "updated_at": "2026-01-19T21:19:11.356Z"
+    "openIssues": 172,
+    "totalIssues": 601,
+    "updated_at": "2026-01-29T20:15:37.816Z"
   },
   "plandex-ai/plandex": {
-    "stars": 14903,
+    "stars": 14943,
     "lastCommit": "2025-10-03",
     "openIssues": 29,
     "totalIssues": 195,
-    "updated_at": "2026-01-19T21:19:11.363Z"
+    "updated_at": "2026-01-29T20:15:37.705Z"
   },
   "searxng/searxng": {
-    "stars": 24207,
-    "lastCommit": "2026-01-19",
-    "openIssues": 181,
-    "totalIssues": 1692,
-    "updated_at": "2026-01-19T21:19:11.349Z"
+    "stars": 24440,
+    "lastCommit": "2026-01-29",
+    "openIssues": 179,
+    "totalIssues": 1695,
+    "updated_at": "2026-01-29T20:15:37.645Z"
   },
   "sgl-project/sglang": {
-    "stars": 22576,
-    "lastCommit": "2026-01-19",
-    "openIssues": 652,
-    "totalIssues": 4484,
-    "updated_at": "2026-01-19T21:19:11.409Z"
+    "stars": 22963,
+    "lastCommit": "2026-01-29",
+    "openIssues": 648,
+    "totalIssues": 4586,
+    "updated_at": "2026-01-29T20:15:37.669Z"
   },
   "fedirz/faster-whisper-server": {
-    "stars": 2842,
+    "stars": 2884,
     "lastCommit": "2025-12-27",
-    "openIssues": 80,
-    "totalIssues": 293,
-    "updated_at": "2026-01-19T21:19:11.458Z"
+    "openIssues": 83,
+    "totalIssues": 296,
+    "updated_at": "2026-01-29T20:15:37.788Z"
   },
   "theroyallab/tabbyAPI": {
-    "stars": 1115,
-    "lastCommit": "2025-12-19",
+    "stars": 1119,
+    "lastCommit": "2026-01-20",
     "openIssues": 23,
     "totalIssues": 228,
-    "updated_at": "2026-01-19T21:19:11.399Z"
+    "updated_at": "2026-01-29T20:15:37.840Z"
   },
   "zou-group/textgrad": {
-    "stars": 3303,
+    "stars": 3328,
     "lastCommit": "2025-07-25",
     "openIssues": 42,
     "totalIssues": 120,
-    "updated_at": "2026-01-19T21:19:11.435Z"
+    "updated_at": "2026-01-29T20:15:37.884Z"
   },
   "matatonic/openedai-speech": {
-    "stars": 844,
+    "stars": 849,
     "lastCommit": "2025-02-02",
     "openIssues": 7,
     "totalIssues": 85,
-    "updated_at": "2026-01-19T21:19:11.668Z"
+    "updated_at": "2026-01-29T20:15:37.898Z"
   },
   "huggingface/text-generation-inference": {
-    "stars": 10735,
+    "stars": 10746,
     "lastCommit": "2026-01-08",
     "openIssues": 282,
     "totalIssues": 1555,
-    "updated_at": "2026-01-19T21:19:11.620Z"
+    "updated_at": "2026-01-29T20:15:37.865Z"
   },
   "neuml/rag": {
-    "stars": 435,
+    "stars": 438,
     "lastCommit": "2025-12-01",
     "openIssues": 2,
     "totalIssues": 31,
-    "updated_at": "2026-01-19T21:19:11.692Z"
+    "updated_at": "2026-01-29T20:15:38.007Z"
   },
   "vllm-project/vllm": {
-    "stars": 67861,
-    "lastCommit": "2026-01-19",
-    "openIssues": 1701,
-    "totalIssues": 12975,
-    "updated_at": "2026-01-19T21:19:11.749Z"
+    "stars": 68965,
+    "lastCommit": "2026-01-29",
+    "openIssues": 1710,
+    "totalIssues": 13164,
+    "updated_at": "2026-01-29T20:15:38.104Z"
   },
   "yamalight/litlytics": {
     "stars": 103,
     "lastCommit": "2024-11-25",
     "openIssues": 3,
     "totalIssues": 16,
-    "updated_at": "2026-01-19T21:19:11.798Z"
+    "updated_at": "2026-01-29T20:15:38.154Z"
   },
   "Mintplex-Labs/anything-llm": {
-    "stars": 53542,
-    "lastCommit": "2026-01-18",
-    "openIssues": 249,
-    "totalIssues": 3074,
-    "updated_at": "2026-01-19T21:19:11.781Z"
+    "stars": 53969,
+    "lastCommit": "2026-01-29",
+    "openIssues": 252,
+    "totalIssues": 3099,
+    "updated_at": "2026-01-29T20:15:38.159Z"
   },
   "NexaAI/nexa-sdk": {
-    "stars": 7537,
-    "lastCommit": "2026-01-16",
-    "openIssues": 25,
-    "totalIssues": 260,
-    "updated_at": "2026-01-19T21:19:11.822Z"
+    "stars": 7614,
+    "lastCommit": "2026-01-28",
+    "openIssues": 28,
+    "totalIssues": 265,
+    "updated_at": "2026-01-29T20:15:38.743Z"
   },
   "yamadashy/repopack": {
-    "stars": 21328,
-    "lastCommit": "2026-01-18",
-    "openIssues": 121,
-    "totalIssues": 227,
-    "updated_at": "2026-01-19T21:19:11.832Z"
+    "stars": 21564,
+    "lastCommit": "2026-01-28",
+    "openIssues": 122,
+    "totalIssues": 228,
+    "updated_at": "2026-01-29T20:15:38.212Z"
   },
   "stackblitz-labs/bolt.diy": {
-    "stars": 18892,
+    "stars": 18953,
     "lastCommit": "2025-10-23",
-    "openIssues": 59,
-    "totalIssues": 943,
-    "updated_at": "2026-01-19T21:19:11.990Z"
+    "openIssues": 62,
+    "totalIssues": 946,
+    "updated_at": "2026-01-29T20:15:38.395Z"
   },
   "zmh-program/chatnio": {
-    "stars": 8904,
-    "lastCommit": "2025-11-08",
+    "stars": 8925,
+    "lastCommit": "2026-01-23",
     "openIssues": 23,
     "totalIssues": 309,
-    "updated_at": "2026-01-19T21:19:12.061Z"
+    "updated_at": "2026-01-29T20:15:38.434Z"
   },
   "qdrant/qdrant": {
-    "stars": 28274,
+    "stars": 28476,
     "lastCommit": "2025-12-24",
-    "openIssues": 377,
-    "totalIssues": 1679,
-    "updated_at": "2026-01-19T21:19:12.247Z"
+    "openIssues": 378,
+    "totalIssues": 1687,
+    "updated_at": "2026-01-29T20:15:38.605Z"
   },
   "grafana/k6": {
-    "stars": 29705,
-    "lastCommit": "2026-01-19",
-    "openIssues": 736,
-    "totalIssues": 2529,
-    "updated_at": "2026-01-19T21:19:12.179Z"
+    "stars": 29800,
+    "lastCommit": "2026-01-29",
+    "openIssues": 727,
+    "totalIssues": 2539,
+    "updated_at": "2026-01-29T20:15:38.588Z"
   },
   "promptfoo/promptfoo": {
-    "stars": 9991,
-    "lastCommit": "2026-01-19",
-    "openIssues": 79,
-    "totalIssues": 1071,
-    "updated_at": "2026-01-19T21:19:12.186Z"
+    "stars": 10193,
+    "lastCommit": "2026-01-29",
+    "openIssues": 81,
+    "totalIssues": 1088,
+    "updated_at": "2026-01-29T20:15:38.584Z"
   },
   "linuxserver/docker-webtop": {
-    "stars": 3838,
-    "lastCommit": "2026-01-13",
+    "stars": 3869,
+    "lastCommit": "2026-01-27",
     "openIssues": 9,
-    "totalIssues": 141,
-    "updated_at": "2026-01-19T21:19:12.200Z"
+    "totalIssues": 143,
+    "updated_at": "2026-01-29T20:15:38.552Z"
   },
   "microsoft/OmniParser": {
-    "stars": 24232,
+    "stars": 24298,
     "lastCommit": "2025-09-09",
     "openIssues": 173,
     "totalIssues": 242,
-    "updated_at": "2026-01-19T21:19:12.439Z"
+    "updated_at": "2026-01-29T20:15:38.631Z"
   },
   "FlowiseAI/Flowise": {
-    "stars": 48342,
-    "lastCommit": "2026-01-16",
-    "openIssues": 637,
-    "totalIssues": 2459,
-    "updated_at": "2026-01-19T21:19:12.394Z"
+    "stars": 48675,
+    "lastCommit": "2026-01-29",
+    "openIssues": 641,
+    "totalIssues": 2467,
+    "updated_at": "2026-01-29T20:15:38.657Z"
   },
   "langflow-ai/langflow": {
-    "stars": 143956,
-    "lastCommit": "2026-01-19",
-    "openIssues": 350,
-    "totalIssues": 3080,
-    "updated_at": "2026-01-19T21:19:12.491Z"
+    "stars": 144368,
+    "lastCommit": "2026-01-29",
+    "openIssues": 343,
+    "totalIssues": 3100,
+    "updated_at": "2026-01-29T20:15:38.911Z"
   },
   "codelion/optillm": {
-    "stars": 3286,
-    "lastCommit": "2025-12-25",
-    "openIssues": 12,
-    "totalIssues": 88,
-    "updated_at": "2026-01-19T21:19:12.571Z"
+    "stars": 3300,
+    "lastCommit": "2026-01-28",
+    "openIssues": 15,
+    "totalIssues": 91,
+    "updated_at": "2026-01-29T20:15:38.770Z"
   },
   "LostRuins/koboldcpp": {
-    "stars": 9287,
-    "lastCommit": "2026-01-18",
-    "openIssues": 385,
-    "totalIssues": 1258,
-    "updated_at": "2026-01-19T21:19:12.404Z"
+    "stars": 9367,
+    "lastCommit": "2026-01-26",
+    "openIssues": 391,
+    "totalIssues": 1270,
+    "updated_at": "2026-01-29T20:15:38.857Z"
   },
   "miurla/morphic": {
-    "stars": 8499,
+    "stars": 8515,
     "lastCommit": "2025-12-15",
     "openIssues": 55,
     "totalIssues": 253,
-    "updated_at": "2026-01-19T21:19:12.622Z"
+    "updated_at": "2026-01-29T20:15:38.979Z"
   },
   "sqlchat/sqlchat": {
-    "stars": 5683,
+    "stars": 5697,
     "lastCommit": "2025-07-12",
     "openIssues": 20,
     "totalIssues": 80,
-    "updated_at": "2026-01-19T21:19:12.587Z"
+    "updated_at": "2026-01-29T20:15:38.990Z"
   },
   "lmg-anon/mikupad": {
-    "stars": 682,
+    "stars": 691,
     "lastCommit": "2025-12-27",
     "openIssues": 17,
     "totalIssues": 66,
-    "updated_at": "2026-01-19T21:19:12.546Z"
+    "updated_at": "2026-01-29T20:15:38.987Z"
   },
   "ErikBjare/gptme": {
-    "stars": 4146,
-    "lastCommit": "2026-01-19",
-    "openIssues": 28,
-    "totalIssues": 333,
-    "updated_at": "2026-01-19T21:19:12.580Z"
+    "stars": 4178,
+    "lastCommit": "2026-01-29",
+    "openIssues": 37,
+    "totalIssues": 352,
+    "updated_at": "2026-01-29T20:15:38.975Z"
   },
   "traefik/traefik": {
-    "stars": 61147,
-    "lastCommit": "2026-01-16",
-    "openIssues": 664,
-    "totalIssues": 6548,
-    "updated_at": "2026-01-19T21:19:12.621Z"
+    "stars": 61338,
+    "lastCommit": "2026-01-29",
+    "openIssues": 661,
+    "totalIssues": 6557,
+    "updated_at": "2026-01-29T20:15:39.068Z"
   },
   "enjalot/latent-scope": {
-    "stars": 748,
+    "stars": 749,
     "lastCommit": "2025-11-17",
     "openIssues": 34,
     "totalIssues": 74,
-    "updated_at": "2026-01-19T21:19:12.774Z"
+    "updated_at": "2026-01-29T20:15:39.050Z"
   },
   "ggozad/oterm": {
-    "stars": 2301,
+    "stars": 2306,
     "lastCommit": "2025-12-19",
     "openIssues": 9,
     "totalIssues": 135,
-    "updated_at": "2026-01-19T21:19:12.774Z"
+    "updated_at": "2026-01-29T20:15:39.088Z"
   },
   "superlinear-ai/raglite": {
-    "stars": 1132,
-    "lastCommit": "2026-01-16",
-    "openIssues": 14,
+    "stars": 1134,
+    "lastCommit": "2026-01-27",
+    "openIssues": 13,
     "totalIssues": 41,
-    "updated_at": "2026-01-19T21:19:12.813Z"
+    "updated_at": "2026-01-29T20:15:39.208Z"
   },
   "mostlygeek/llama-swap": {
-    "stars": 2205,
-    "lastCommit": "2026-01-19",
-    "openIssues": 10,
-    "totalIssues": 243,
-    "updated_at": "2026-01-19T21:19:12.879Z"
+    "stars": 2267,
+    "lastCommit": "2026-01-29",
+    "openIssues": 13,
+    "totalIssues": 250,
+    "updated_at": "2026-01-29T20:15:39.235Z"
   },
   "LibreTranslate/LibreTranslate": {
-    "stars": 13560,
-    "lastCommit": "2026-01-18",
-    "openIssues": 127,
+    "stars": 13652,
+    "lastCommit": "2026-01-27",
+    "openIssues": 126,
     "totalIssues": 548,
-    "updated_at": "2026-01-19T21:19:12.897Z"
+    "updated_at": "2026-01-29T20:15:39.424Z"
   },
   "open-webui/mcpo": {
-    "stars": 3880,
+    "stars": 3924,
     "lastCommit": "2025-10-14",
-    "openIssues": 37,
-    "totalIssues": 125,
-    "updated_at": "2026-01-19T21:19:12.954Z"
+    "openIssues": 40,
+    "totalIssues": 128,
+    "updated_at": "2026-01-29T20:15:39.343Z"
   },
   "metatool-ai/metatool-app": {
-    "stars": 1928,
+    "stars": 1966,
     "lastCommit": "2025-12-23",
-    "openIssues": 59,
-    "totalIssues": 154,
-    "updated_at": "2026-01-19T21:19:13.005Z"
+    "openIssues": 60,
+    "totalIssues": 155,
+    "updated_at": "2026-01-29T20:15:39.393Z"
   },
   "supercorp-ai/supergateway": {
-    "stars": 2374,
+    "stars": 2395,
     "lastCommit": "2025-10-09",
     "openIssues": 28,
     "totalIssues": 70,
-    "updated_at": "2026-01-19T21:19:13.016Z"
+    "updated_at": "2026-01-29T20:15:39.360Z"
   },
   "LearningCircuit/local-deep-research": {
-    "stars": 3841,
-    "lastCommit": "2026-01-19",
-    "openIssues": 36,
-    "totalIssues": 243,
-    "updated_at": "2026-01-19T21:19:12.979Z"
+    "stars": 3884,
+    "lastCommit": "2026-01-29",
+    "openIssues": 38,
+    "totalIssues": 246,
+    "updated_at": "2026-01-29T20:15:39.376Z"
   },
   "go-skynet/LocalAI": {
-    "stars": 42184,
-    "lastCommit": "2026-01-19",
-    "openIssues": 144,
-    "totalIssues": 1229,
-    "updated_at": "2026-01-19T21:19:13.026Z"
+    "stars": 42463,
+    "lastCommit": "2026-01-29",
+    "openIssues": 143,
+    "totalIssues": 1241,
+    "updated_at": "2026-01-29T20:15:39.447Z"
   },
   "frdel/agent-zero": {
-    "stars": 13678,
+    "stars": 13971,
     "lastCommit": "2025-12-29",
-    "openIssues": 124,
-    "totalIssues": 448,
-    "updated_at": "2026-01-19T21:19:13.160Z"
+    "openIssues": 141,
+    "totalIssues": 467,
+    "updated_at": "2026-01-29T20:15:39.493Z"
   },
   "airweave-ai/airweave": {
-    "stars": 5551,
-    "lastCommit": "2026-01-19",
+    "stars": 5579,
+    "lastCommit": "2026-01-29",
     "openIssues": 36,
     "totalIssues": 88,
-    "updated_at": "2026-01-19T21:19:13.217Z"
+    "updated_at": "2026-01-29T20:15:39.596Z"
   },
   "modular/max": {
-    "stars": 25479,
-    "lastCommit": "2026-01-19",
-    "openIssues": 694,
-    "totalIssues": 3111,
-    "updated_at": "2026-01-19T21:19:13.185Z"
+    "stars": 25518,
+    "lastCommit": "2026-01-29",
+    "openIssues": 713,
+    "totalIssues": 3147,
+    "updated_at": "2026-01-29T20:15:39.534Z"
   },
   "unslothai/unsloth": {
-    "stars": 50877,
-    "lastCommit": "2026-01-16",
-    "openIssues": 827,
-    "totalIssues": 2874,
-    "updated_at": "2026-01-19T21:19:13.409Z"
+    "stars": 51336,
+    "lastCommit": "2026-01-27",
+    "openIssues": 833,
+    "totalIssues": 2899,
+    "updated_at": "2026-01-29T20:15:39.756Z"
   },
   "docling-project/docling": {
-    "stars": 50547,
-    "lastCommit": "2026-01-19",
-    "openIssues": 774,
-    "totalIssues": 1543,
-    "updated_at": "2026-01-19T21:19:13.222Z"
+    "stars": 51471,
+    "lastCommit": "2026-01-28",
+    "openIssues": 780,
+    "totalIssues": 1560,
+    "updated_at": "2026-01-29T20:15:39.690Z"
   },
   "windmill-labs/windmill": {
-    "stars": 15538,
-    "lastCommit": "2026-01-19",
-    "openIssues": 506,
-    "totalIssues": 1366,
-    "updated_at": "2026-01-19T21:19:13.379Z"
+    "stars": 15675,
+    "lastCommit": "2026-01-29",
+    "openIssues": 510,
+    "totalIssues": 1382,
+    "updated_at": "2026-01-29T20:15:39.797Z"
   },
   "presenton/presenton": {
-    "stars": 3669,
+    "stars": 3854,
     "lastCommit": "2026-01-04",
-    "openIssues": 45,
-    "totalIssues": 162,
-    "updated_at": "2026-01-19T21:19:13.375Z"
+    "openIssues": 49,
+    "totalIssues": 166,
+    "updated_at": "2026-01-29T20:15:39.797Z"
   },
   "karakeep-app/karakeep": {
-    "stars": 22850,
-    "lastCommit": "2026-01-19",
-    "openIssues": 492,
-    "totalIssues": 1460,
-    "updated_at": "2026-01-19T21:19:13.344Z"
+    "stars": 23011,
+    "lastCommit": "2026-01-28",
+    "openIssues": 499,
+    "totalIssues": 1470,
+    "updated_at": "2026-01-29T20:15:39.850Z"
   },
   "netdata/netdata": {
-    "stars": 77405,
-    "lastCommit": "2026-01-19",
-    "openIssues": 170,
-    "totalIssues": 8188,
-    "updated_at": "2026-01-19T21:19:13.445Z"
+    "stars": 77558,
+    "lastCommit": "2026-01-29",
+    "openIssues": 169,
+    "totalIssues": 8191,
+    "updated_at": "2026-01-29T20:15:39.833Z"
   },
   "srbhr/Resume-Matcher": {
-    "stars": 25705,
-    "lastCommit": "2026-01-19",
-    "openIssues": 12,
-    "totalIssues": 185,
-    "updated_at": "2026-01-19T21:19:13.409Z"
+    "stars": 25824,
+    "lastCommit": "2026-01-28",
+    "openIssues": 14,
+    "totalIssues": 187,
+    "updated_at": "2026-01-29T20:15:39.807Z"
   },
   "DayuanJiang/next-ai-draw-io": {
-    "stars": 18863,
-    "lastCommit": "2026-01-18",
-    "openIssues": 82,
-    "totalIssues": 210,
-    "updated_at": "2026-01-19T21:19:13.612Z"
+    "stars": 20224,
+    "lastCommit": "2026-01-29",
+    "openIssues": 95,
+    "totalIssues": 232,
+    "updated_at": "2026-01-29T20:15:39.872Z"
   },
   "mindsdb/mindsdb": {
-    "stars": 38284,
-    "lastCommit": "2026-01-19",
-    "openIssues": 67,
-    "totalIssues": 4384,
-    "updated_at": "2026-01-19T21:19:13.764Z"
+    "stars": 38337,
+    "lastCommit": "2026-01-28",
+    "openIssues": 70,
+    "totalIssues": 4391,
+    "updated_at": "2026-01-29T20:15:39.964Z"
   },
   "simstudioai/sim": {
-    "stars": 25782,
-    "lastCommit": "2026-01-18",
-    "openIssues": 98,
-    "totalIssues": 378,
-    "updated_at": "2026-01-19T21:19:13.790Z"
+    "stars": 26272,
+    "lastCommit": "2026-01-29",
+    "openIssues": 88,
+    "totalIssues": 386,
+    "updated_at": "2026-01-29T20:15:40.032Z"
   },
   "onyx-dot-app/onyx": {
-    "stars": 17075,
-    "lastCommit": "2026-01-19",
-    "openIssues": 110,
-    "totalIssues": 1000,
-    "updated_at": "2026-01-19T21:19:13.661Z"
+    "stars": 17273,
+    "lastCommit": "2026-01-29",
+    "openIssues": 126,
+    "totalIssues": 1021,
+    "updated_at": "2026-01-29T20:15:40.072Z"
   },
   "open-webui/open-webui": {
-    "stars": 121181,
+    "stars": 122318,
     "lastCommit": "2026-01-10",
-    "openIssues": 172,
-    "totalIssues": 7404,
-    "updated_at": "2026-01-19T21:19:11.723Z"
+    "openIssues": 167,
+    "totalIssues": 7478,
+    "updated_at": "2026-01-29T20:15:38.113Z"
   },
   "BerriAI/litellm": {
-    "stars": 34117,
-    "lastCommit": "2026-01-19",
-    "openIssues": 825,
-    "totalIssues": 8496,
-    "updated_at": "2026-01-19T21:19:10.887Z"
+    "stars": 34767,
+    "lastCommit": "2026-01-29",
+    "openIssues": 820,
+    "totalIssues": 8688,
+    "updated_at": "2026-01-29T20:15:37.212Z"
   },
   "cloudflare/cloudflared": {
-    "stars": 12698,
-    "lastCommit": "2026-01-19",
-    "openIssues": 451,
-    "totalIssues": 1276,
-    "updated_at": "2026-01-19T21:19:10.134Z"
+    "stars": 12826,
+    "lastCommit": "2026-01-23",
+    "openIssues": 450,
+    "totalIssues": 1281,
+    "updated_at": "2026-01-29T20:15:36.455Z"
   },
   "langgenius/dify": {
-    "stars": 126506,
-    "lastCommit": "2026-01-19",
-    "openIssues": 438,
-    "totalIssues": 16003,
-    "updated_at": "2026-01-19T21:19:10.555Z"
+    "stars": 128018,
+    "lastCommit": "2026-01-29",
+    "openIssues": 433,
+    "totalIssues": 16209,
+    "updated_at": "2026-01-29T20:15:36.893Z"
   },
   "n8n-io/n8n": {
-    "stars": 170017,
-    "lastCommit": "2026-01-19",
-    "openIssues": 490,
-    "totalIssues": 7588,
-    "updated_at": "2026-01-19T21:19:12.081Z"
+    "stars": 172015,
+    "lastCommit": "2026-01-29",
+    "openIssues": 505,
+    "totalIssues": 7733,
+    "updated_at": "2026-01-29T20:15:38.270Z"
   },
   "open-webui/pipelines": {
-    "stars": 2252,
+    "stars": 2264,
     "lastCommit": "2025-08-18",
-    "openIssues": 147,
-    "totalIssues": 272,
-    "updated_at": "2026-01-19T21:19:12.030Z"
+    "openIssues": 149,
+    "totalIssues": 274,
+    "updated_at": "2026-01-29T20:15:38.362Z"
   },
   "lfnovo/open-notebook": {
-    "stars": 18240,
-    "lastCommit": "2026-01-18",
-    "openIssues": 78,
-    "totalIssues": 244,
-    "updated_at": "2026-01-19T21:19:13.679Z"
+    "stars": 18931,
+    "lastCommit": "2026-01-26",
+    "openIssues": 82,
+    "totalIssues": 270,
+    "updated_at": "2026-01-29T20:15:40.198Z"
   },
   "Cinnamon/kotaemon": {
-    "stars": 24852,
+    "stars": 24937,
     "lastCommit": "2025-07-02",
     "openIssues": 207,
     "totalIssues": 455,
-    "updated_at": "2026-01-19T21:19:13.845Z"
+    "updated_at": "2026-01-29T20:15:40.235Z"
   },
   "home-assistant/core": {
-    "stars": 84268,
-    "lastCommit": "2026-01-19",
-    "openIssues": 2658,
-    "totalIssues": 66912,
-    "updated_at": "2026-01-19T21:19:13.808Z"
+    "stars": 84462,
+    "lastCommit": "2026-01-29",
+    "openIssues": 2586,
+    "totalIssues": 67101,
+    "updated_at": "2026-01-29T20:15:40.259Z"
   },
   "IBM/mcp-context-forge": {
-    "stars": 3114,
-    "lastCommit": "2026-01-19",
-    "openIssues": 382,
-    "totalIssues": 1029,
-    "updated_at": "2026-01-19T21:19:13.853Z"
+    "stars": 3197,
+    "lastCommit": "2026-01-29",
+    "openIssues": 625,
+    "totalIssues": 1335,
+    "updated_at": "2026-01-29T20:15:40.223Z"
   },
   "AstrBotDevs/AstrBot": {
-    "stars": 15082,
-    "lastCommit": "2026-01-18",
-    "openIssues": 393,
-    "totalIssues": 3396,
-    "updated_at": "2026-01-19T21:19:13.867Z"
+    "stars": 15347,
+    "lastCommit": "2026-01-29",
+    "openIssues": 392,
+    "totalIssues": 3546,
+    "updated_at": "2026-01-29T20:15:40.220Z"
   },
   "bytedance/deer-flow": {
-    "stars": 19177,
-    "lastCommit": "2026-01-17",
-    "openIssues": 178,
-    "totalIssues": 433,
-    "updated_at": "2026-01-19T21:19:13.845Z"
+    "stars": 19507,
+    "lastCommit": "2026-01-28",
+    "openIssues": 180,
+    "totalIssues": 437,
+    "updated_at": "2026-01-29T20:15:40.195Z"
   },
   "activepieces/activepieces": {
-    "stars": 20416,
-    "lastCommit": "2026-01-19",
-    "openIssues": 265,
-    "totalIssues": 2600,
-    "updated_at": "2026-01-19T21:19:14.102Z"
+    "stars": 20544,
+    "lastCommit": "2026-01-29",
+    "openIssues": 270,
+    "totalIssues": 2615,
+    "updated_at": "2026-01-29T20:15:40.227Z"
   },
   "khoj-ai/khoj": {
-    "stars": 32216,
+    "stars": 32342,
     "lastCommit": "2026-01-06",
-    "openIssues": 77,
-    "totalIssues": 559,
-    "updated_at": "2026-01-19T21:19:14.254Z"
+    "openIssues": 80,
+    "totalIssues": 562,
+    "updated_at": "2026-01-29T20:15:40.447Z"
   },
   "photoprism/photoprism": {
-    "stars": 39118,
-    "lastCommit": "2026-01-16",
-    "openIssues": 420,
-    "totalIssues": 2465,
-    "updated_at": "2026-01-19T21:19:14.029Z"
+    "stars": 39174,
+    "lastCommit": "2026-01-29",
+    "openIssues": 422,
+    "totalIssues": 2469,
+    "updated_at": "2026-01-29T20:15:40.360Z"
   },
   "anomalyco/opencode": {
-    "stars": 78530,
-    "lastCommit": "2026-01-19",
-    "openIssues": 2320,
-    "totalIssues": 5832,
-    "updated_at": "2026-01-19T21:19:14.329Z"
+    "stars": 92157,
+    "lastCommit": "2026-01-29",
+    "openIssues": 2999,
+    "totalIssues": 6951,
+    "updated_at": "2026-01-29T20:15:40.453Z"
+  },
+  "moltbot/moltbot": {
+    "stars": 102165,
+    "lastCommit": "2026-01-29",
+    "openIssues": 652,
+    "totalIssues": 1898,
+    "updated_at": "2026-01-29T20:15:40.603Z"
   }
 }
