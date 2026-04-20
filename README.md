@@ -931,3 +931,5 @@ This list is auto-generated from [Harbor's service metadata](https://github.com/
 <p align="center">
   Made with <img src="./assets/heart.svg" width="16" height="16" style="vertical-align: middle;"> by the <a href="https://github.com/av/harbor">Harbor</a> community
 </p>
+
+- [OneComp](https://github.com/FujitsuResearch/OneCompression) — Fujitsu PTQ pipeline with vLLM plugin.
