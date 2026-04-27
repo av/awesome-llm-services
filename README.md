@@ -216,6 +216,10 @@ Inference engine from HuggingFace.
 <a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/github/v/release/vllm-project/vllm?style=flat&label=release&color=7d8590" alt="vllm-project/vllm release"></a> <a href="https://github.com/vllm-project/vllm"><img src="https://img.shields.io/github/license/vllm-project/vllm?style=flat&label=license&color=7d8590" alt="vllm-project/vllm license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"><br>
 A high-throughput and memory-efficient inference and serving engine for LLMs
 
+#### <img src="https://github.com/pberlizov.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[vimin-core](https://github.com/pberlizov/vimin-public)**<br>
+Distributed local LLM and Whisper inference orchestration across up to 10 machines. MLX on Apple Silicon, llama.cpp on any platform. Air-gapped and privacy-first. MIT.<br>
+![GitHub stars](https://img.shields.io/github/stars/pberlizov/vimin-public?style=social)
+
 ## <img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites
 
 Companion services, research tools, and integrations that enhance LLM workflows.
