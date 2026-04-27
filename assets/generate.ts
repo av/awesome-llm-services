@@ -80,7 +80,34 @@ function isCacheEntryValid(entry: CachedGitHubStats): boolean {
   return now - updatedAt < CACHE_TTL_MS;
 }
 
-const GITHUB_PAT = Deno.env.get("GITHUB_PAT") ?? (typeof process !== "undefined" ? process.env.GITHUB_PAT : undefined);
+async function getGhCliToken(): Promise<string | undefined> {
+  try {
+    if (typeof Deno !== "undefined") {
+      const cmd = new Deno.Command("gh", {
+        args: ["auth", "token"],
+        stdout: "piped",
+        stderr: "null",
+      });
+      const { code, stdout } = await cmd.output();
+      if (code !== 0) return undefined;
+      const token = new TextDecoder().decode(stdout).trim();
+      return token || undefined;
+    } else {
+      // @ts-ignore - Node typings are optional for this generator
+      const { execFileSync } = await import("node:child_process");
+      const out = execFileSync("gh", ["auth", "token"], { stdio: ["ignore", "pipe", "ignore"] });
+      const token = out.toString().trim();
+      return token || undefined;
+    }
+  } catch {
+    return undefined;
+  }
+}
+
+const GITHUB_PAT =
+  Deno.env.get("GITHUB_PAT") ??
+  (typeof process !== "undefined" ? process.env.GITHUB_PAT : undefined) ??
+  (await getGhCliToken());
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -772,7 +799,7 @@ This list is auto-generated from [Harbor's service metadata](https://github.com/
 </p>
 `;
 
-const outputPath = new URL("./README.md", import.meta.url).pathname;
+const outputPath = new URL("../README.md", import.meta.url).pathname;
 
 async function writeFile(path: string, content: string) {
   if (typeof Deno !== "undefined") {

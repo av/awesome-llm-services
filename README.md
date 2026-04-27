@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-121%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-122%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **121+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **122+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -23,7 +23,7 @@ Relevance score (<img src="./assets/rocket.svg" width="16" height="16" style="ve
 
 - [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (18)
 - [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (17)
-- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (81)
+- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (82)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (12)
 - [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (14)
 - [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (4)
@@ -614,6 +614,11 @@ RAG WebUI built with txtai.
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 86% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 62.9k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 3.3k (1.0k open, 2.2k closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-24<br>
 <a href="https://github.com/unslothai/unsloth"><img src="https://img.shields.io/github/v/release/unslothai/unsloth?style=flat&label=release&color=7d8590" alt="unslothai/unsloth release"></a> <a href="https://github.com/unslothai/unsloth"><img src="https://img.shields.io/github/license/unslothai/unsloth?style=flat&label=license&color=7d8590" alt="unslothai/unsloth license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"><br>
 Jupyter Lab environment with Unsloth for fast LLM fine-tuning - 2x faster training with 70% less memory.
+
+#### <img src="https://github.com/unslothai.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Unsloth Studio](https://github.com/unslothai/unsloth)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 86% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 62.9k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 3.3k (1.0k open, 2.2k closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-24<br>
+<a href="https://github.com/unslothai/unsloth"><img src="https://img.shields.io/github/v/release/unslothai/unsloth?style=flat&label=release&color=7d8590" alt="unslothai/unsloth release"></a> <a href="https://github.com/unslothai/unsloth"><img src="https://img.shields.io/github/license/unslothai/unsloth?style=flat&label=license&color=7d8590" alt="unslothai/unsloth license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"><br>
+No-code web UI for fine-tuning LLMs with Unsloth. 2x faster training and 70% less memory, powered by llama.cpp + Hugging Face.
 
 #### <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/webtop.png" width="14" height="14" style="vertical-align: middle;"> **[Webtop](https://github.com/linuxserver/docker-webtop)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 63% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 4.1k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 151 (6 open, 145 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-21<br>
