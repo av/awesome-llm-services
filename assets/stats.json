@@ -796,5 +796,40 @@
     "openIssues": 190,
     "totalIssues": 654,
     "updated_at": "2026-05-07T17:38:45.302Z"
+  },
+  "av/facts": {
+    "stars": 117,
+    "lastCommit": "2026-05-12",
+    "openIssues": 0,
+    "totalIssues": 0,
+    "updated_at": "2026-05-13T14:53:55.422Z"
+  },
+  "av/mi": {
+    "stars": 41,
+    "lastCommit": "2026-05-13",
+    "openIssues": 0,
+    "totalIssues": 0,
+    "updated_at": "2026-05-13T14:53:55.438Z"
+  },
+  "lemonade-sdk/lemonade": {
+    "stars": 3924,
+    "lastCommit": "2026-05-13",
+    "openIssues": 220,
+    "totalIssues": 851,
+    "updated_at": "2026-05-13T14:53:55.451Z"
+  },
+  "junhoyeo/tokscale": {
+    "stars": 2883,
+    "lastCommit": "2026-05-10",
+    "openIssues": 55,
+    "totalIssues": 154,
+    "updated_at": "2026-05-13T14:53:55.466Z"
+  },
+  "huggingface/ml-intern": {
+    "stars": 9371,
+    "lastCommit": "2026-05-13",
+    "openIssues": 28,
+    "totalIssues": 44,
+    "updated_at": "2026-05-13T14:53:55.485Z"
   }
 }
