@@ -845,5 +845,19 @@
     "openIssues": 5,
     "totalIssues": 6,
     "updated_at": "2026-05-15T09:44:10.757Z"
+  },
+  "jamiepine/voicebox": {
+    "stars": 26023,
+    "lastCommit": "2026-04-26",
+    "openIssues": 319,
+    "totalIssues": 470,
+    "updated_at": "2026-05-16T21:36:17.964Z"
+  },
+  "nexu-io/open-design": {
+    "stars": 42438,
+    "lastCommit": "2026-05-16",
+    "openIssues": 236,
+    "totalIssues": 778,
+    "updated_at": "2026-05-16T21:36:17.995Z"
   }
 }

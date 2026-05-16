@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-131%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-133%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **131+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **133+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -21,15 +21,15 @@ Relevance score (<img src="./assets/rocket.svg" width="16" height="16" style="ve
 
 ## Contents
 
-- [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (18)
+- [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (19)
 - [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (19)
-- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (89)
+- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (90)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (13)
-- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (19)
-- [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (5)
+- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (20)
+- [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (6)
 - [<img src="./assets/terminal.svg" width="16" height="16" style="vertical-align: middle;"> CLI Tools](#-cli-tools) - Terminal-based LLM tools (23)
 - [<img src="./assets/flask-conical.svg" width="16" height="16" style="vertical-align: middle;"> Evaluation](#-evaluation) - Benchmarking and testing (2)
-- [<img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools](#-mcp-tools) - Model Context Protocol (19)
+- [<img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools](#-mcp-tools) - Model Context Protocol (20)
 
 ---
 
@@ -126,6 +126,11 @@ TUI for Ollama
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 73% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 27.6k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 2.6k (342 open, 2.2k closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-05-03<br>
 <a href="https://github.com/SillyTavern/SillyTavern"><img src="https://img.shields.io/github/v/release/SillyTavern/SillyTavern?style=flat&label=release&color=7d8590" alt="SillyTavern/SillyTavern release"></a> <a href="https://github.com/SillyTavern/SillyTavern"><img src="https://img.shields.io/github/license/SillyTavern/SillyTavern?style=flat&label=license&color=7d8590" alt="SillyTavern/SillyTavern license"></a> &nbsp; <img src="https://img.shields.io/badge/Frontend-000000?style=flat" alt="Frontend"><br>
 Feature-rich LLM chat frontend for power users. Supports multiple AI backends, personas, advanced prompting, and extensions.
+
+#### <img src="https://www.google.com/s2/favicons?domain=voicebox.sh&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Voicebox](https://github.com/jamiepine/voicebox)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 68% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 26.0k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 470 (319 open, 151 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-26<br>
+<a href="https://github.com/jamiepine/voicebox"><img src="https://img.shields.io/github/v/release/jamiepine/voicebox?style=flat&label=release&color=7d8590" alt="jamiepine/voicebox release"></a> <a href="https://github.com/jamiepine/voicebox"><img src="https://img.shields.io/github/license/jamiepine/voicebox?style=flat&label=license&color=7d8590" alt="jamiepine/voicebox license"></a> &nbsp; <img src="https://img.shields.io/badge/Frontend-000000?style=flat" alt="Frontend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"><br>
+Local-first AI voice studio for voice cloning, preset voices, speech generation, dictation, transcription, and agent speech.
 
 ## <img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends
 
@@ -505,6 +510,11 @@ Agentic shell and NPC team server with OpenAI-compatible endpoints, jinxes, and 
 <a href="https://github.com/microsoft/OmniParser"><img src="https://img.shields.io/github/v/release/microsoft/OmniParser?style=flat&label=release&color=7d8590" alt="microsoft/OmniParser release"></a> <a href="https://github.com/microsoft/OmniParser"><img src="https://img.shields.io/github/license/microsoft/OmniParser?style=flat&label=license&color=7d8590" alt="microsoft/OmniParser license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Image-000000?style=flat" alt="Image"><br>
 A simple screen parsing tool towards pure vision based GUI agent.
 
+#### <img src="https://github.com/nexu-io.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Open Design](https://github.com/nexu-io/open-design)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 84% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 42.4k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 778 (236 open, 542 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-05-16<br>
+<a href="https://github.com/nexu-io/open-design"><img src="https://img.shields.io/github/v/release/nexu-io/open-design?style=flat&label=release&color=7d8590" alt="nexu-io/open-design release"></a> <a href="https://github.com/nexu-io/open-design"><img src="https://img.shields.io/github/license/nexu-io/open-design?style=flat&label=license&color=7d8590" alt="nexu-io/open-design license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Tools-000000?style=flat" alt="Tools"><br>
+Local-first design artifact workspace with BYOK model providers, design systems, decks, prototypes, and Harbor Ollama integration.
+
 #### <img src="https://github.com/OpenInterpreter.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 79% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 63.5k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.1k (255 open, 812 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-05-04<br>
 <a href="https://github.com/OpenInterpreter/open-interpreter"><img src="https://img.shields.io/github/v/release/OpenInterpreter/open-interpreter?style=flat&label=release&color=7d8590" alt="OpenInterpreter/open-interpreter release"></a> <a href="https://github.com/OpenInterpreter/open-interpreter"><img src="https://img.shields.io/github/license/OpenInterpreter/open-interpreter?style=flat&label=license&color=7d8590" alt="OpenInterpreter/open-interpreter license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/CLI-000000?style=flat" alt="CLI"><br>
@@ -843,6 +853,11 @@ Model Context Protocol (MCP) server for Robot Operating System (ROS). Connects L
 <a href="https://github.com/traefik/traefik"><img src="https://img.shields.io/github/v/release/traefik/traefik?style=flat&label=release&color=7d8590" alt="traefik/traefik release"></a> <a href="https://github.com/traefik/traefik"><img src="https://img.shields.io/github/license/traefik/traefik?style=flat&label=license&color=7d8590" alt="traefik/traefik license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Infra-000000?style=flat" alt="Infra"><br>
 A modern HTTP reverse proxy and load balancer that makes deploying microservices easy.
 
+#### <img src="https://www.google.com/s2/favicons?domain=voicebox.sh&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Voicebox](https://github.com/jamiepine/voicebox)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 68% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 26.0k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 470 (319 open, 151 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-26<br>
+<a href="https://github.com/jamiepine/voicebox"><img src="https://img.shields.io/github/v/release/jamiepine/voicebox?style=flat&label=release&color=7d8590" alt="jamiepine/voicebox release"></a> <a href="https://github.com/jamiepine/voicebox"><img src="https://img.shields.io/github/license/jamiepine/voicebox?style=flat&label=license&color=7d8590" alt="jamiepine/voicebox license"></a> &nbsp; <img src="https://img.shields.io/badge/Frontend-000000?style=flat" alt="Frontend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"><br>
+Local-first AI voice studio for voice cloning, preset voices, speech generation, dictation, transcription, and agent speech.
+
 ## <img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech
 
 Text-to-speech (TTS), speech-to-text (STT), and audio processing services.
@@ -871,6 +886,11 @@ Inference and training library for high-quality TTS models.
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 51% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 3.3k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 312 (95 open, 217 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-18<br>
 <a href="https://github.com/fedirz/faster-whisper-server"><img src="https://img.shields.io/github/v/release/fedirz/faster-whisper-server?style=flat&label=release&color=7d8590" alt="fedirz/faster-whisper-server release"></a> <a href="https://github.com/fedirz/faster-whisper-server"><img src="https://img.shields.io/github/license/fedirz/faster-whisper-server?style=flat&label=license&color=7d8590" alt="fedirz/faster-whisper-server license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"><br>
 an OpenAI API-compatible speech server (formerly `faster-whisper-server`), both TTS and STT
+
+#### <img src="https://www.google.com/s2/favicons?domain=voicebox.sh&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Voicebox](https://github.com/jamiepine/voicebox)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 68% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 26.0k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 470 (319 open, 151 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-26<br>
+<a href="https://github.com/jamiepine/voicebox"><img src="https://img.shields.io/github/v/release/jamiepine/voicebox?style=flat&label=release&color=7d8590" alt="jamiepine/voicebox release"></a> <a href="https://github.com/jamiepine/voicebox"><img src="https://img.shields.io/github/license/jamiepine/voicebox?style=flat&label=license&color=7d8590" alt="jamiepine/voicebox license"></a> &nbsp; <img src="https://img.shields.io/badge/Frontend-000000?style=flat" alt="Frontend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"><br>
+Local-first AI voice studio for voice cloning, preset voices, speech generation, dictation, transcription, and agent speech.
 
 ## <img src="./assets/terminal.svg" width="16" height="16" style="vertical-align: middle;"> CLI Tools
 
@@ -1068,6 +1088,11 @@ Small function-calling model served through an OpenAI-compatible tool-calling AP
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 46% &nbsp; <img src="./assets/star-b1.svg" width="16" height="16" style="vertical-align: middle;"> 394 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 38 (8 open, 30 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-05-14<br>
 <a href="https://github.com/NPC-Worldwide/npcsh"><img src="https://img.shields.io/github/v/release/NPC-Worldwide/npcsh?style=flat&label=release&color=7d8590" alt="NPC-Worldwide/npcsh release"></a> <a href="https://github.com/NPC-Worldwide/npcsh"><img src="https://img.shields.io/github/license/NPC-Worldwide/npcsh?style=flat&label=license&color=7d8590" alt="NPC-Worldwide/npcsh license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/CLI-000000?style=flat" alt="CLI"> <img src="https://img.shields.io/badge/Tools-000000?style=flat" alt="Tools"><br>
 Agentic shell and NPC team server with OpenAI-compatible endpoints, jinxes, and local backend integrations.
+
+#### <img src="https://github.com/nexu-io.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Open Design](https://github.com/nexu-io/open-design)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 84% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 42.4k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 778 (236 open, 542 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-05-16<br>
+<a href="https://github.com/nexu-io/open-design"><img src="https://img.shields.io/github/v/release/nexu-io/open-design?style=flat&label=release&color=7d8590" alt="nexu-io/open-design release"></a> <a href="https://github.com/nexu-io/open-design"><img src="https://img.shields.io/github/license/nexu-io/open-design?style=flat&label=license&color=7d8590" alt="nexu-io/open-design license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Tools-000000?style=flat" alt="Tools"><br>
+Local-first design artifact workspace with BYOK model providers, design systems, decks, prototypes, and Harbor Ollama integration.
 
 #### <img src="https://github.com/open-webui.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Open Terminal](https://github.com/open-webui/open-terminal)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 49% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 2.5k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 77 (12 open, 65 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-17<br>
