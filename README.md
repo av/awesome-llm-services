@@ -1025,6 +1025,18 @@ Harbor's own tool to evaluate LLMs and inference backends against custom tasks.
 <a href="https://github.com/EleutherAI/lm-evaluation-harness"><img src="https://img.shields.io/github/v/release/EleutherAI/lm-evaluation-harness?style=flat&label=release&color=7d8590" alt="EleutherAI/lm-evaluation-harness release"></a> <a href="https://github.com/EleutherAI/lm-evaluation-harness"><img src="https://img.shields.io/github/license/EleutherAI/lm-evaluation-harness?style=flat&label=license&color=7d8590" alt="EleutherAI/lm-evaluation-harness license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/CLI-000000?style=flat" alt="CLI"> <img src="https://img.shields.io/badge/Eval-000000?style=flat" alt="Eval"><br>
 A de-facto standard framework for the few-shot evaluation of language models.
 
+#### <img src="https://github.com/future-agi.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Future AGI](https://github.com/future-agi/future-agi)**<br>
+<a href="https://github.com/future-agi/future-agi"><img src="https://img.shields.io/github/license/future-agi/future-agi?style=flat&label=license&color=7d8590" alt="future-agi/future-agi license"></a> &nbsp; <img src="https://img.shields.io/badge/Self--Hostable-000000?style=flat" alt="Self-Hostable"> <img src="https://img.shields.io/badge/Eval-000000?style=flat" alt="Eval"> <img src="https://img.shields.io/badge/Tracing-000000?style=flat" alt="Tracing"><br>
+Open-source self-hostable end-to-end agent engineering and optimization platform unifying tracing, evaluation, simulation, datasets, gateway, and guardrails in one feedback loop.
+
+#### <img src="https://github.com/future-agi.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[traceAI](https://github.com/future-agi/traceAI)**<br>
+<a href="https://github.com/future-agi/traceAI"><img src="https://img.shields.io/github/license/future-agi/traceAI?style=flat&label=license&color=7d8590" alt="future-agi/traceAI license"></a> &nbsp; <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat" alt="OpenTelemetry"> <img src="https://img.shields.io/badge/Tracing-000000?style=flat" alt="Tracing"><br>
+Open-source OpenTelemetry-native tracing for LLM and agent apps. Auto-instruments 50+ frameworks across Python, TypeScript, Java, and C# (OpenAI, Anthropic, LangChain, LlamaIndex, CrewAI, Bedrock). No vendor lock-in.
+
+#### <img src="https://github.com/future-agi.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[agent-command-center-sdk](https://github.com/future-agi/agent-command-center-sdk)**<br>
+<a href="https://github.com/future-agi/agent-command-center-sdk"><img src="https://img.shields.io/github/license/future-agi/agent-command-center-sdk?style=flat&label=license&color=7d8590" alt="future-agi/agent-command-center-sdk license"></a> &nbsp; <img src="https://img.shields.io/badge/Gateway-000000?style=flat" alt="Gateway"> <img src="https://img.shields.io/badge/Routing-000000?style=flat" alt="Routing"><br>
+Open-source, OpenAI-compatible gateway SDK for managing and routing AI agent requests across providers.
+
 ## <img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools
 
 Model Context Protocol servers and tool integration services.
