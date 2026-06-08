@@ -1,0 +1,37 @@
+name: Regenerate README
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: regenerate-readme
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Generate README
+        working-directory: assets
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: deno run -A generate.ts
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate README [skip ci]"
+          file_pattern: "README.md assets/*.json assets/*.svg"
