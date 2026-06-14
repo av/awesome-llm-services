@@ -908,5 +908,12 @@
     "openIssues": 412,
     "totalIssues": 1105,
     "updated_at": "2026-06-08T14:11:15.407Z"
+  },
+  "daytonaio/daytona": {
+    "stars": 72437,
+    "lastCommit": "2026-06-12",
+    "openIssues": 309,
+    "totalIssues": 1227,
+    "updated_at": "2026-06-14T07:41:34.083Z"
   }
 }

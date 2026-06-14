@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-137%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-138%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **137+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **138+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -23,9 +23,9 @@ Relevance score (<img src="./assets/rocket.svg" width="16" height="16" style="ve
 
 - [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (19)
 - [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (23)
-- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (90)
+- [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (91)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (13)
-- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (23)
+- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (24)
 - [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (6)
 - [<img src="./assets/terminal.svg" width="16" height="16" style="vertical-align: middle;"> CLI Tools](#-cli-tools) - Terminal-based LLM tools (23)
 - [<img src="./assets/flask-conical.svg" width="16" height="16" style="vertical-align: middle;"> Evaluation](#-evaluation) - Benchmarking and testing (2)
@@ -323,6 +323,11 @@ Create Linux commands from natural language, in the shell.
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 76% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 17.7k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 512 (19 open, 493 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-08<br>
 <a href="https://github.com/topoteretes/cognee"><img src="https://img.shields.io/github/v/release/topoteretes/cognee?style=flat&label=release&color=7d8590" alt="topoteretes/cognee release"></a> <a href="https://github.com/topoteretes/cognee"><img src="https://img.shields.io/github/license/topoteretes/cognee?style=flat&label=license&color=7d8590" alt="topoteretes/cognee license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/RAG-000000?style=flat" alt="RAG"><br>
 Knowledge engine for AI agent memory. Transforms documents into searchable graphs and vectors with built-in pipelines.
+
+#### <img src="https://www.google.com/s2/favicons?domain=daytona.io&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Daytona](https://github.com/daytonaio/daytona)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 90% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 72.4k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.2k (309 open, 918 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-12<br>
+<a href="https://github.com/daytonaio/daytona"><img src="https://img.shields.io/github/v/release/daytonaio/daytona?style=flat&label=release&color=7d8590" alt="daytonaio/daytona release"></a> <a href="https://github.com/daytonaio/daytona"><img src="https://img.shields.io/github/license/daytonaio/daytona?style=flat&label=license&color=7d8590" alt="daytonaio/daytona license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Infra-000000?style=flat" alt="Infra"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
+Self-hosted sandbox platform for AI agents with Docker-in-Docker, computer use, and GPU support.
 
 #### <img src="https://www.google.com/s2/favicons?domain=dbhub.ai&sz=128" width="14" height="14" style="vertical-align: middle;"> **[DBHub](https://github.com/bytebase/dbhub)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 62% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 2.9k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 151 (7 open, 144 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-07<br>
@@ -791,6 +796,11 @@ A helper service allowing to expose Harbor services over the internet.
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 76% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 17.7k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 512 (19 open, 493 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-08<br>
 <a href="https://github.com/topoteretes/cognee"><img src="https://img.shields.io/github/v/release/topoteretes/cognee?style=flat&label=release&color=7d8590" alt="topoteretes/cognee release"></a> <a href="https://github.com/topoteretes/cognee"><img src="https://img.shields.io/github/license/topoteretes/cognee?style=flat&label=license&color=7d8590" alt="topoteretes/cognee license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/RAG-000000?style=flat" alt="RAG"><br>
 Knowledge engine for AI agent memory. Transforms documents into searchable graphs and vectors with built-in pipelines.
+
+#### <img src="https://www.google.com/s2/favicons?domain=daytona.io&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Daytona](https://github.com/daytonaio/daytona)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 90% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 72.4k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.2k (309 open, 918 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-12<br>
+<a href="https://github.com/daytonaio/daytona"><img src="https://img.shields.io/github/v/release/daytonaio/daytona?style=flat&label=release&color=7d8590" alt="daytonaio/daytona release"></a> <a href="https://github.com/daytonaio/daytona"><img src="https://img.shields.io/github/license/daytonaio/daytona?style=flat&label=license&color=7d8590" alt="daytonaio/daytona license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Infra-000000?style=flat" alt="Infra"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
+Self-hosted sandbox platform for AI agents with Docker-in-Docker, computer use, and GPU support.
 
 #### <img src="https://www.google.com/s2/favicons?domain=dbhub.ai&sz=128" width="14" height="14" style="vertical-align: middle;"> **[DBHub](https://github.com/bytebase/dbhub)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 62% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 2.9k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 151 (7 open, 144 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-07<br>
