@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-138%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-139%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **138+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **139+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -22,11 +22,11 @@ Relevance score (<img src="./assets/rocket.svg" width="16" height="16" style="ve
 ## Contents
 
 - [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (19)
-- [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (23)
+- [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (24)
 - [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (91)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (13)
-- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (24)
-- [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (6)
+- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (25)
+- [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (7)
 - [<img src="./assets/terminal.svg" width="16" height="16" style="vertical-align: middle;"> CLI Tools](#-cli-tools) - Terminal-based LLM tools (23)
 - [<img src="./assets/flask-conical.svg" width="16" height="16" style="vertical-align: middle;"> Evaluation](#-evaluation) - Benchmarking and testing (2)
 - [<img src="./assets/wrench.svg" width="16" height="16" style="vertical-align: middle;"> MCP Tools](#-mcp-tools) - Model Context Protocol (20)
@@ -234,6 +234,11 @@ SGLang is a fast serving framework for large language models and vision language
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 28% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 3.6k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 330 (106 open, 224 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-18<br>
 <a href="https://github.com/speaches-ai/speaches"><img src="https://img.shields.io/github/v/release/speaches-ai/speaches?style=flat&label=release&color=7d8590" alt="speaches-ai/speaches release"></a> <a href="https://github.com/speaches-ai/speaches"><img src="https://img.shields.io/github/license/speaches-ai/speaches?style=flat&label=license&color=7d8590" alt="speaches-ai/speaches license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"><br>
 an OpenAI API-compatible speech server (formerly `faster-whisper-server`), both TTS and STT
+
+#### <img src="https://github.com/huggingface.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Speech To Speech](https://github.com/huggingface/speech-to-speech)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 71% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 10.5k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 143 (85 open, 58 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-07-31<br>
+<a href="https://github.com/huggingface/speech-to-speech"><img src="https://img.shields.io/github/v/release/huggingface/speech-to-speech?style=flat&label=release&color=7d8590" alt="huggingface/speech-to-speech release"></a> <a href="https://github.com/huggingface/speech-to-speech"><img src="https://img.shields.io/github/license/huggingface/speech-to-speech?style=flat&label=license&color=7d8590" alt="huggingface/speech-to-speech license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
+Modular realtime voice pipeline (VAD, STT, LLM, TTS) exposing an OpenAI Realtime-compatible WebSocket API.
 
 #### <img src="https://github.com/theroyallab.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[TabbyAPI](https://github.com/theroyallab/tabbyAPI)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 55% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 1.3k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 235 (18 open, 217 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-07-31<br>
@@ -891,6 +896,11 @@ Optimising LLM proxy that implements many advanced workflows to boost the perfor
 <a href="https://github.com/robotmcp/ros-mcp-server"><img src="https://img.shields.io/github/v/release/robotmcp/ros-mcp-server?style=flat&label=release&color=7d8590" alt="robotmcp/ros-mcp-server release"></a> <a href="https://github.com/robotmcp/ros-mcp-server"><img src="https://img.shields.io/github/license/robotmcp/ros-mcp-server?style=flat&label=license&color=7d8590" alt="robotmcp/ros-mcp-server license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Tools-000000?style=flat" alt="Tools"><br>
 Model Context Protocol (MCP) server for Robot Operating System (ROS). Connects LLMs to robots.
 
+#### <img src="https://github.com/huggingface.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Speech To Speech](https://github.com/huggingface/speech-to-speech)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 71% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 10.5k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 143 (85 open, 58 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-07-31<br>
+<a href="https://github.com/huggingface/speech-to-speech"><img src="https://img.shields.io/github/v/release/huggingface/speech-to-speech?style=flat&label=release&color=7d8590" alt="huggingface/speech-to-speech release"></a> <a href="https://github.com/huggingface/speech-to-speech"><img src="https://img.shields.io/github/license/huggingface/speech-to-speech?style=flat&label=license&color=7d8590" alt="huggingface/speech-to-speech license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
+Modular realtime voice pipeline (VAD, STT, LLM, TTS) exposing an OpenAI Realtime-compatible WebSocket API.
+
 #### <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/traefik.png" width="14" height="14" style="vertical-align: middle;"> **[Traefik](https://github.com/traefik/traefik)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 85% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 64.2k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 6.8k (683 open, 6.1k closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-07-31<br>
 <a href="https://github.com/traefik/traefik"><img src="https://img.shields.io/github/v/release/traefik/traefik?style=flat&label=release&color=7d8590" alt="traefik/traefik release"></a> <a href="https://github.com/traefik/traefik"><img src="https://img.shields.io/github/license/traefik/traefik?style=flat&label=license&color=7d8590" alt="traefik/traefik license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Infra-000000?style=flat" alt="Infra"><br>
@@ -929,6 +939,11 @@ Inference and training library for high-quality TTS models.
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 28% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 3.6k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 330 (106 open, 224 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-18<br>
 <a href="https://github.com/speaches-ai/speaches"><img src="https://img.shields.io/github/v/release/speaches-ai/speaches?style=flat&label=release&color=7d8590" alt="speaches-ai/speaches release"></a> <a href="https://github.com/speaches-ai/speaches"><img src="https://img.shields.io/github/license/speaches-ai/speaches?style=flat&label=license&color=7d8590" alt="speaches-ai/speaches license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"><br>
 an OpenAI API-compatible speech server (formerly `faster-whisper-server`), both TTS and STT
+
+#### <img src="https://github.com/huggingface.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Speech To Speech](https://github.com/huggingface/speech-to-speech)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 71% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 10.5k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 143 (85 open, 58 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-07-31<br>
+<a href="https://github.com/huggingface/speech-to-speech"><img src="https://img.shields.io/github/v/release/huggingface/speech-to-speech?style=flat&label=release&color=7d8590" alt="huggingface/speech-to-speech release"></a> <a href="https://github.com/huggingface/speech-to-speech"><img src="https://img.shields.io/github/license/huggingface/speech-to-speech?style=flat&label=license&color=7d8590" alt="huggingface/speech-to-speech license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
+Modular realtime voice pipeline (VAD, STT, LLM, TTS) exposing an OpenAI Realtime-compatible WebSocket API.
 
 #### <img src="https://www.google.com/s2/favicons?domain=voicebox.sh&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Voicebox](https://github.com/jamiepine/voicebox)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 81% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 47.7k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 649 (461 open, 188 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-07-27<br>

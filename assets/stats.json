@@ -915,5 +915,12 @@
     "openIssues": 310,
     "totalIssues": 1241,
     "updated_at": "2026-07-29T06:58:24.681Z"
+  },
+  "huggingface/speech-to-speech": {
+    "stars": 10541,
+    "lastCommit": "2026-07-31",
+    "openIssues": 85,
+    "totalIssues": 143,
+    "updated_at": "2026-08-03T07:12:53.176Z"
   }
 }
