@@ -910,11 +910,11 @@
     "updated_at": "2026-08-09T06:17:42.776Z"
   },
   "daytonaio/daytona": {
-    "stars": 72053,
+    "stars": 72024,
     "lastCommit": "2026-06-25",
-    "openIssues": 311,
-    "totalIssues": 1242,
-    "updated_at": "2026-08-06T06:57:47.306Z"
+    "openIssues": 312,
+    "totalIssues": 1244,
+    "updated_at": "2026-08-14T06:31:51.098Z"
   },
   "huggingface/speech-to-speech": {
     "stars": 12055,
