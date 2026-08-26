@@ -917,10 +917,10 @@
     "updated_at": "2026-08-22T06:08:57.114Z"
   },
   "huggingface/speech-to-speech": {
-    "stars": 12627,
-    "lastCommit": "2026-08-18",
-    "openIssues": 82,
-    "totalIssues": 178,
-    "updated_at": "2026-08-19T06:11:20.259Z"
+    "stars": 12868,
+    "lastCommit": "2026-08-25",
+    "openIssues": 78,
+    "totalIssues": 183,
+    "updated_at": "2026-08-26T06:12:30.562Z"
   }
 }
