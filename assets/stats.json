@@ -922,5 +922,47 @@
     "openIssues": 78,
     "totalIssues": 183,
     "updated_at": "2026-08-26T06:12:30.562Z"
+  },
+  "pluja/whishper": {
+    "stars": 3066,
+    "lastCommit": "2025-08-15",
+    "openIssues": 91,
+    "totalIssues": 151,
+    "updated_at": "2026-08-30T06:18:10.716Z"
+  },
+  "HKUDS/LightRAG": {
+    "stars": 39261,
+    "lastCommit": "2026-08-30",
+    "openIssues": 193,
+    "totalIssues": 1543,
+    "updated_at": "2026-08-30T06:18:10.717Z"
+  },
+  "linkwarden/linkwarden": {
+    "stars": 19629,
+    "lastCommit": "2026-08-28",
+    "openIssues": 623,
+    "totalIssues": 1077,
+    "updated_at": "2026-08-30T06:18:10.728Z"
+  },
+  "huggingface/text-embeddings-inference": {
+    "stars": 5028,
+    "lastCommit": "2026-07-24",
+    "openIssues": 159,
+    "totalIssues": 451,
+    "updated_at": "2026-08-30T06:18:10.733Z"
+  },
+  "icereed/paperless-gpt": {
+    "stars": 2654,
+    "lastCommit": "2026-07-21",
+    "openIssues": 141,
+    "totalIssues": 291,
+    "updated_at": "2026-08-30T06:18:10.737Z"
+  },
+  "paperless-ngx/paperless-ngx": {
+    "stars": 44705,
+    "lastCommit": "2026-08-30",
+    "openIssues": 1,
+    "totalIssues": 2673,
+    "updated_at": "2026-08-30T06:18:10.748Z"
   }
 }

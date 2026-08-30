@@ -1,4 +1,4 @@
-<!-- @license lucide-static v1.35.0 - ISC -->
+<!-- @license lucide-static v1.37.0 - ISC -->
 <svg
   class="lucide lucide-circle-dot"
   xmlns="http://www.w3.org/2000/svg"
@@ -11,6 +11,6 @@
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <circle cx="12" cy="12" r="10" />
   <circle cx="12" cy="12" r="1" />
+  <circle cx="12" cy="12" r="10" />
 </svg>
