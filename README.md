@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-148%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-149%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **148+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **149+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -22,10 +22,10 @@ Relevance score (<img src="./assets/rocket.svg" width="16" height="16" style="ve
 ## Contents
 
 - [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (19)
-- [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (25)
+- [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (26)
 - [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (98)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (13)
-- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (27)
+- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (28)
 - [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (8)
 - [<img src="./assets/terminal.svg" width="16" height="16" style="vertical-align: middle;"> CLI Tools](#-cli-tools) - Terminal-based LLM tools (24)
 - [<img src="./assets/flask-conical.svg" width="16" height="16" style="vertical-align: middle;"> Evaluation](#-evaluation) - Benchmarking and testing (2)
@@ -145,6 +145,11 @@ Inference engines and model serving platforms. These power the actual LLM respon
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 58% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 1.9k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 251 (30 open, 221 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-09-07<br>
 <a href="https://github.com/PygmalionAI/aphrodite-engine"><img src="https://img.shields.io/github/v/release/PygmalionAI/aphrodite-engine?style=flat&label=release&color=7d8590" alt="PygmalionAI/aphrodite-engine release"></a> <a href="https://github.com/PygmalionAI/aphrodite-engine"><img src="https://img.shields.io/github/license/PygmalionAI/aphrodite-engine?style=flat&label=license&color=7d8590" alt="PygmalionAI/aphrodite-engine license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"><br>
 Large-scale LLM inference engine
+
+#### <img src="https://www.google.com/s2/favicons?domain=www.datalab.to&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Chandra 2](https://github.com/datalab-to/chandra)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 42% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 12.2k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 73 (47 open, 26 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-26<br>
+<a href="https://github.com/datalab-to/chandra"><img src="https://img.shields.io/github/v/release/datalab-to/chandra?style=flat&label=release&color=7d8590" alt="datalab-to/chandra release"></a> <a href="https://github.com/datalab-to/chandra"><img src="https://img.shields.io/github/license/datalab-to/chandra?style=flat&label=license&color=7d8590" alt="datalab-to/chandra license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Image-000000?style=flat" alt="Image"><br>
+Chandra 2 OCR served with vLLM: document and image to structured markdown, HTML or JSON.
 
 #### <img src="https://www.google.com/s2/favicons?domain=docker.com&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Docker Model Runner](https://docs.docker.com/ai/model-runner/)**<br>
 <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
@@ -831,6 +836,11 @@ API gateways, proxies, and aggregation services for managing multiple LLM endpoi
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 70% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 7.8k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.3k (461 open, 794 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-09-07<br>
 <a href="https://github.com/maximhq/bifrost"><img src="https://img.shields.io/github/v/release/maximhq/bifrost?style=flat&label=release&color=7d8590" alt="maximhq/bifrost release"></a> <a href="https://github.com/maximhq/bifrost"><img src="https://img.shields.io/github/license/maximhq/bifrost?style=flat&label=license&color=7d8590" alt="maximhq/bifrost license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Infra-000000?style=flat" alt="Infra"><br>
 Fast OpenAI-compatible AI gateway with provider routing, failover, observability, and Harbor backend bootstrapping.
+
+#### <img src="https://www.google.com/s2/favicons?domain=www.datalab.to&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Chandra 2](https://github.com/datalab-to/chandra)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 42% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 12.2k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 73 (47 open, 26 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-26<br>
+<a href="https://github.com/datalab-to/chandra"><img src="https://img.shields.io/github/v/release/datalab-to/chandra?style=flat&label=release&color=7d8590" alt="datalab-to/chandra release"></a> <a href="https://github.com/datalab-to/chandra"><img src="https://img.shields.io/github/license/datalab-to/chandra?style=flat&label=license&color=7d8590" alt="datalab-to/chandra license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"> <img src="https://img.shields.io/badge/Image-000000?style=flat" alt="Image"><br>
+Chandra 2 OCR served with vLLM: document and image to structured markdown, HTML or JSON.
 
 #### <img src="https://www.google.com/s2/favicons?domain=developers.cloudflare.com&sz=128" width="14" height="14" style="vertical-align: middle;"> **[cloudflared](https://github.com/cloudflare/cloudflared)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 73% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 15.5k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.4k (488 open, 862 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-09-03<br>
