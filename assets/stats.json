@@ -910,11 +910,11 @@
     "updated_at": "2026-09-07T06:26:03.286Z"
   },
   "daytonaio/daytona": {
-    "stars": 71803,
+    "stars": 71721,
     "lastCommit": "2026-06-25",
     "openIssues": 322,
-    "totalIssues": 1255,
-    "updated_at": "2026-09-05T06:17:53.279Z"
+    "totalIssues": 1257,
+    "updated_at": "2026-09-13T06:22:00.923Z"
   },
   "huggingface/speech-to-speech": {
     "stars": 13130,
@@ -971,5 +971,12 @@
     "openIssues": 47,
     "totalIssues": 73,
     "updated_at": "2026-09-08T06:19:57.641Z"
+  },
+  "peonist-ai/halogen-flash-server": {
+    "stars": 316,
+    "lastCommit": "2026-09-13",
+    "openIssues": 15,
+    "totalIssues": 42,
+    "updated_at": "2026-09-13T06:22:00.924Z"
   }
 }

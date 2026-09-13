@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-149%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-150%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **149+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **150+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -22,10 +22,10 @@ Relevance score (<img src="./assets/rocket.svg" width="16" height="16" style="ve
 ## Contents
 
 - [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (19)
-- [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (26)
+- [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (27)
 - [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (98)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (13)
-- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (28)
+- [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (29)
 - [<img src="./assets/audio-lines.svg" width="16" height="16" style="vertical-align: middle;"> Audio & Speech](#-audio--speech) - TTS and STT services (8)
 - [<img src="./assets/terminal.svg" width="16" height="16" style="vertical-align: middle;"> CLI Tools](#-cli-tools) - Terminal-based LLM tools (24)
 - [<img src="./assets/flask-conical.svg" width="16" height="16" style="vertical-align: middle;"> Evaluation](#-evaluation) - Benchmarking and testing (2)
@@ -159,6 +159,11 @@ Docker-managed local model runner exposed to Harbor as an OpenAI-compatible back
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 21% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 3.6k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 332 (108 open, 224 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-04-18<br>
 <a href="https://github.com/fedirz/faster-whisper-server"><img src="https://img.shields.io/github/v/release/fedirz/faster-whisper-server?style=flat&label=release&color=7d8590" alt="fedirz/faster-whisper-server release"></a> <a href="https://github.com/fedirz/faster-whisper-server"><img src="https://img.shields.io/github/license/fedirz/faster-whisper-server?style=flat&label=license&color=7d8590" alt="fedirz/faster-whisper-server license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"> <img src="https://img.shields.io/badge/Partial%20Support-000000?style=flat" alt="Partial Support"><br>
 Legacy version of Speaches, use that instead.
+
+#### <img src="https://github.com/peonist-ai.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Halogen Flash Server](https://github.com/peonist-ai/halogen-flash-server)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 47% &nbsp; <img src="./assets/star-b1.svg" width="16" height="16" style="vertical-align: middle;"> 316 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 42 (15 open, 27 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-09-13<br>
+<a href="https://github.com/peonist-ai/halogen-flash-server"><img src="https://img.shields.io/github/v/release/peonist-ai/halogen-flash-server?style=flat&label=release&color=7d8590" alt="peonist-ai/halogen-flash-server release"></a> <a href="https://github.com/peonist-ai/halogen-flash-server"><img src="https://img.shields.io/github/license/peonist-ai/halogen-flash-server?style=flat&label=license&color=7d8590" alt="peonist-ai/halogen-flash-server license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
+Qwen3.8-Flash-Next inference for AMD Strix Halo with an OpenAI-compatible API.
 
 #### <img src="https://github.com/ikawrakow.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 61% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 3.2k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 633 (63 open, 570 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-09-03<br>
@@ -340,7 +345,7 @@ Create Linux commands from natural language, in the shell.
 Knowledge engine for AI agent memory. Transforms documents into searchable graphs and vectors with built-in pipelines.
 
 #### <img src="https://www.google.com/s2/favicons?domain=daytona.io&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Daytona](https://github.com/daytonaio/daytona)**<br>
-<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 49% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 71.8k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.3k (322 open, 933 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-25<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 49% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 71.7k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.3k (322 open, 935 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-25<br>
 <a href="https://github.com/daytonaio/daytona"><img src="https://img.shields.io/github/v/release/daytonaio/daytona?style=flat&label=release&color=7d8590" alt="daytonaio/daytona release"></a> <a href="https://github.com/daytonaio/daytona"><img src="https://img.shields.io/github/license/daytonaio/daytona?style=flat&label=license&color=7d8590" alt="daytonaio/daytona license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Infra-000000?style=flat" alt="Infra"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
 Self-hosted sandbox platform for AI agents with Docker-in-Docker, computer use, and GPU support.
 
@@ -853,7 +858,7 @@ A helper service allowing to expose Harbor services over the internet.
 Knowledge engine for AI agent memory. Transforms documents into searchable graphs and vectors with built-in pipelines.
 
 #### <img src="https://www.google.com/s2/favicons?domain=daytona.io&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Daytona](https://github.com/daytonaio/daytona)**<br>
-<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 49% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 71.8k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.3k (322 open, 933 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-25<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 49% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 71.7k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.3k (322 open, 935 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-06-25<br>
 <a href="https://github.com/daytonaio/daytona"><img src="https://img.shields.io/github/v/release/daytonaio/daytona?style=flat&label=release&color=7d8590" alt="daytonaio/daytona release"></a> <a href="https://github.com/daytonaio/daytona"><img src="https://img.shields.io/github/license/daytonaio/daytona?style=flat&label=license&color=7d8590" alt="daytonaio/daytona license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"> <img src="https://img.shields.io/badge/Infra-000000?style=flat" alt="Infra"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
 Self-hosted sandbox platform for AI agents with Docker-in-Docker, computer use, and GPU support.
 
@@ -865,6 +870,11 @@ Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Se
 #### <img src="https://www.google.com/s2/favicons?domain=docker.com&sz=128" width="14" height="14" style="vertical-align: middle;"> **[Docker Model Runner](https://docs.docker.com/ai/model-runner/)**<br>
 <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
 Docker-managed local model runner exposed to Harbor as an OpenAI-compatible backend.
+
+#### <img src="https://github.com/peonist-ai.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Halogen Flash Server](https://github.com/peonist-ai/halogen-flash-server)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 47% &nbsp; <img src="./assets/star-b1.svg" width="16" height="16" style="vertical-align: middle;"> 316 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 42 (15 open, 27 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-09-13<br>
+<a href="https://github.com/peonist-ai/halogen-flash-server"><img src="https://img.shields.io/github/v/release/peonist-ai/halogen-flash-server?style=flat&label=release&color=7d8590" alt="peonist-ai/halogen-flash-server release"></a> <a href="https://github.com/peonist-ai/halogen-flash-server"><img src="https://img.shields.io/github/license/peonist-ai/halogen-flash-server?style=flat&label=license&color=7d8590" alt="peonist-ai/halogen-flash-server license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/API-000000?style=flat" alt="API"><br>
+Qwen3.8-Flash-Next inference for AMD Strix Halo with an OpenAI-compatible API.
 
 #### <img src="https://github.com/av.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[Harbor Boost](https://github.com/av/harbor/tree/main/boost)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 59% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 3.2k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 187 (57 open, 130 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-08-29<br>
