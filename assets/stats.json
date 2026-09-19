@@ -978,5 +978,12 @@
     "openIssues": 15,
     "totalIssues": 42,
     "updated_at": "2026-09-13T06:22:00.924Z"
+  },
+  "PrismML-Eng/llama.cpp": {
+    "stars": 600,
+    "lastCommit": "2026-09-18",
+    "openIssues": 29,
+    "totalIssues": 54,
+    "updated_at": "2026-09-19T06:18:14.369Z"
   }
 }

@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/services-150%2B-blue" alt="Services">
+  <img src="https://img.shields.io/badge/services-151%2B-blue" alt="Services">
   <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fav%2Fawesome-llm-services&countColor=%23263759&style=flat" /></a>
   <a href="https://discord.gg/8nDRphrhSF"><img src="https://img.shields.io/badge/Discord-Harbor-blue?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/av/harbor"><img src="https://img.shields.io/badge/av-Harbor-black.svg" alt="av/harbor repo link"></a>
 </p>
 
-A list of **150+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
+A list of **151+** LLM services, tools, and infrastructure for running AI locally. Criteria for inclusion:
 - Open Source
 - Self-hostable
 - Friendly to containerization (Docker, Podman, etc.)
@@ -22,7 +22,7 @@ Relevance score (<img src="./assets/rocket.svg" width="16" height="16" style="ve
 ## Contents
 
 - [<img src="./assets/message-square.svg" width="16" height="16" style="vertical-align: middle;"> Frontends](#-frontends) - Chat interfaces and web UIs (19)
-- [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (27)
+- [<img src="./assets/cpu.svg" width="16" height="16" style="vertical-align: middle;"> Backends](#-backends) - Inference engines and model servers (28)
 - [<img src="./assets/satellite.svg" width="16" height="16" style="vertical-align: middle;"> Satellites](#-satellites) - Companion services and integrations (98)
 - [<img src="./assets/workflow.svg" width="16" height="16" style="vertical-align: middle;"> Workflow & Automation](#-workflow--automation) - Visual programming platforms (13)
 - [<img src="./assets/plug.svg" width="16" height="16" style="vertical-align: middle;"> API & Proxies](#-api--proxies) - LLM gateways and aggregators (29)
@@ -234,6 +234,11 @@ An OpenAI API compatible text to speech server using Coqui AI's xtts_v2 and/or p
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 0% &nbsp; <img src="./assets/star-b2.svg" width="16" height="16" style="vertical-align: middle;"> 5.6k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 157 (118 open, 39 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2024-12-10<br>
 <a href="https://github.com/huggingface/parler-tts"><img src="https://img.shields.io/github/v/release/huggingface/parler-tts?style=flat&label=release&color=7d8590" alt="huggingface/parler-tts release"></a> <a href="https://github.com/huggingface/parler-tts"><img src="https://img.shields.io/github/license/huggingface/parler-tts?style=flat&label=license&color=7d8590" alt="huggingface/parler-tts license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"> <img src="https://img.shields.io/badge/Audio-000000?style=flat" alt="Audio"><br>
 Inference and training library for high-quality TTS models.
+
+#### <img src="https://github.com/PrismML-Eng.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[PrismML llama.cpp](https://github.com/PrismML-Eng/llama.cpp)**<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 51% &nbsp; <img src="./assets/star-b1.svg" width="16" height="16" style="vertical-align: middle;"> 600 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 54 (29 open, 25 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-09-18<br>
+<a href="https://github.com/PrismML-Eng/llama.cpp"><img src="https://img.shields.io/github/v/release/PrismML-Eng/llama.cpp?style=flat&label=release&color=7d8590" alt="PrismML-Eng/llama.cpp release"></a> <a href="https://github.com/PrismML-Eng/llama.cpp"><img src="https://img.shields.io/github/license/PrismML-Eng/llama.cpp?style=flat&label=license&color=7d8590" alt="PrismML-Eng/llama.cpp license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"><br>
+PrismML llama.cpp fork that runs Ternary Bonsai PTQ1_0/PQ2_0 GGUF models.
 
 #### <img src="https://github.com/sgl-project.png?size=200" width="14" height="14" style="vertical-align: middle;"> **[SGLang](https://github.com/sgl-project/sglang)**<br>
 <img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 81% &nbsp; <img src="./assets/star-b3.svg" width="16" height="16" style="vertical-align: middle;"> 35.9k &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 7.4k (883 open, 6.6k closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-09-14<br>
