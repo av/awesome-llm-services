@@ -980,66 +980,66 @@
     "updated_at": "2026-10-05T06:32:21.763Z"
   },
   "PrismML-Eng/llama.cpp": {
-    "stars": 853,
-    "lastCommit": "2026-10-02",
-    "openIssues": 41,
-    "totalIssues": 75,
-    "updated_at": "2026-10-03T06:21:56.017Z"
+    "stars": 912,
+    "lastCommit": "2026-10-10",
+    "openIssues": 49,
+    "totalIssues": 84,
+    "updated_at": "2026-10-11T06:20:17.496Z"
   },
   "lobehub/lobehub": {
-    "stars": 82955,
-    "lastCommit": "2026-10-03",
-    "openIssues": 384,
-    "totalIssues": 6539,
-    "updated_at": "2026-10-03T06:21:56.036Z"
+    "stars": 83123,
+    "lastCommit": "2026-10-11",
+    "openIssues": 388,
+    "totalIssues": 6564,
+    "updated_at": "2026-10-11T06:20:17.344Z"
   },
   "SciPhi-AI/R2R": {
-    "stars": 8011,
+    "stars": 8015,
     "lastCommit": "2025-11-07",
-    "openIssues": 114,
-    "totalIssues": 345,
-    "updated_at": "2026-10-03T06:21:56.449Z"
+    "openIssues": 115,
+    "totalIssues": 346,
+    "updated_at": "2026-10-11T06:20:18.042Z"
   },
   "infiniflow/ragflow": {
-    "stars": 91615,
-    "lastCommit": "2026-10-02",
-    "openIssues": 1190,
-    "totalIssues": 7858,
-    "updated_at": "2026-10-03T06:21:56.454Z"
+    "stars": 91980,
+    "lastCommit": "2026-10-11",
+    "openIssues": 981,
+    "totalIssues": 7888,
+    "updated_at": "2026-10-11T06:20:17.484Z"
   },
   "caddyserver/caddy": {
-    "stars": 76244,
-    "lastCommit": "2026-10-03",
-    "openIssues": 198,
-    "totalIssues": 4645,
-    "updated_at": "2026-10-03T06:21:56.303Z"
+    "stars": 77711,
+    "lastCommit": "2026-10-10",
+    "openIssues": 197,
+    "totalIssues": 4669,
+    "updated_at": "2026-10-11T06:20:17.524Z"
   },
   "microsoft/autogen": {
-    "stars": 61249,
+    "stars": 61343,
     "lastCommit": "2026-04-06",
     "openIssues": 559,
     "totalIssues": 3084,
-    "updated_at": "2026-10-03T06:21:56.807Z"
+    "updated_at": "2026-10-11T06:20:17.973Z"
   },
   "claraverse-space/ClaraVerse": {
-    "stars": 3899,
+    "stars": 3905,
     "lastCommit": "2026-08-03",
     "openIssues": 8,
     "totalIssues": 172,
-    "updated_at": "2026-10-03T06:21:56.743Z"
+    "updated_at": "2026-10-11T06:20:18.030Z"
   },
   "QwenLM/qwen-code": {
-    "stars": 28281,
-    "lastCommit": "2026-10-03",
-    "openIssues": 1286,
-    "totalIssues": 5369,
-    "updated_at": "2026-10-03T06:21:56.733Z"
+    "stars": 28410,
+    "lastCommit": "2026-10-11",
+    "openIssues": 1457,
+    "totalIssues": 5651,
+    "updated_at": "2026-10-11T06:20:17.971Z"
   },
   "latitude-dev/latitude-llm": {
-    "stars": 4699,
-    "lastCommit": "2026-10-01",
-    "openIssues": 81,
-    "totalIssues": 778,
-    "updated_at": "2026-10-03T06:21:56.756Z"
+    "stars": 4718,
+    "lastCommit": "2026-10-09",
+    "openIssues": 3,
+    "totalIssues": 707,
+    "updated_at": "2026-10-11T06:20:18.152Z"
   }
 }
