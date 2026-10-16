@@ -966,11 +966,11 @@
     "updated_at": "2026-10-13T06:24:05.518Z"
   },
   "datalab-to/chandra": {
-    "stars": 12458,
+    "stars": 12503,
     "lastCommit": "2026-06-26",
-    "openIssues": 47,
-    "totalIssues": 73,
-    "updated_at": "2026-10-08T06:22:40.926Z"
+    "openIssues": 49,
+    "totalIssues": 75,
+    "updated_at": "2026-10-16T06:19:44.897Z"
   },
   "peonist-ai/halogen-flash-server": {
     "stars": 952,
