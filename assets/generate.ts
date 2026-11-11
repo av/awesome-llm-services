@@ -407,19 +407,28 @@ interface ServiceEntry {
   relevance?: number | null;
 }
 
+const curation = JSON.parse(await Deno.readTextFile(new URL("./curation.json", import.meta.url)));
 const metadata = serviceMetadata as Record<string, any>;
+for (const entry of curation.additions) {
+  metadata[entry.handle] = { ...entry, wikiUrl: entry.projectUrl };
+}
 
 const rawServices: Omit<ServiceEntry, "githubStats">[] = Object.entries(metadata)
   .map(([handle, s]) => ({
     handle,
     name: s.name ?? handle,
     tags: (s.tags ?? []) as string[],
-    projectUrl: s.projectUrl,
+    projectUrl: curation.urlOverrides[s.projectUrl] ?? s.projectUrl,
     wikiUrl: s.wikiUrl,
     logo: s.logo,
     tooltip: s.tooltip ?? "",
   }))
-  .filter((s) => !!s.name);
+  .filter((s) => !!s.name)
+  .filter((s) => {
+    const repo = s.projectUrl ? parseGitHubRepo(s.projectUrl) : null;
+    const key = repo ? `${repo.owner}/${repo.repo}`.toLowerCase() : "";
+    return !Object.keys(curation.excludedRepositories).some(r => r.toLowerCase() === key);
+  });
 
 const githubServices = rawServices.filter(s => s.projectUrl?.includes("github.com"));
 console.log(`🔍 Fetching GitHub stats for ${githubServices.length} repositories`);
@@ -722,6 +731,10 @@ A list of **${services.length}+** LLM services, tools, and infrastructure for ru
 
 Relevance score (${icon('rocket')} 0–100%): a composite metric of **Popularity** (logarithm of stars) and **Recency** (exponential decay with a 90-day half-life). This highlights projects that are both widely recognized and actively maintained.
 
+Last maintenance review: **2026-11-11**. Project links, licensing, self-hosting instructions for new submissions, and upstream activity were checked. Archived projects and projects without commits for over a year were removed. Section counts include services listed in more than one section.
+
+Added in this review: ${curation.additions.map((s: ServiceEntry) => getLink(s)).join(", ")}.
+
 ## Contents
 
 - [${icon("message-square")} Frontends](#-frontends) - Chat interfaces and web UIs (${frontends.length})
@@ -792,7 +805,11 @@ ${uniqueServices(mcpTools).map(s => renderService(s, HST.tools)).join("\n\n")}
 
 ## Contributing
 
-This list is auto-generated from [Harbor's service metadata](https://github.com/av/harbor).
+This list is auto-generated from [Harbor's service metadata](https://github.com/av/harbor) and [locally reviewed submissions](./assets/curation.json).
+
+To propose a service, [open an issue](https://github.com/av/awesome-llm-services/issues/new) with its source repository, license, and self-hosting instructions. Accepted submissions are kept in the local curation file so daily regeneration preserves them.
+
+To regenerate: install [Deno](https://deno.com/), then run \`deno run -A assets/generate.ts\` from the repository root.
 
 <p align="center">
   Made with ${icon("heart")} by the <a href="https://github.com/av/harbor">Harbor</a> community
