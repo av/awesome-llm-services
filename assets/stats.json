@@ -1055,5 +1055,61 @@
     "openIssues": 0,
     "totalIssues": 0,
     "updated_at": "2026-11-06T06:13:30.400Z"
+  },
+  "CorvinLabs/CorvinOS": {
+    "stars": 25,
+    "lastCommit": "2026-11-11",
+    "openIssues": 1,
+    "totalIssues": 1,
+    "updated_at": "2026-11-11T11:25:02.973Z"
+  },
+  "defilantech/LLMKube": {
+    "stars": 264,
+    "lastCommit": "2026-11-11",
+    "openIssues": 114,
+    "totalIssues": 1018,
+    "updated_at": "2026-11-11T11:25:02.973Z"
+  },
+  "theguysudo/ENZO": {
+    "stars": 119,
+    "lastCommit": "2026-11-11",
+    "openIssues": 6,
+    "totalIssues": 7,
+    "updated_at": "2026-11-11T11:25:02.983Z"
+  },
+  "sandialabs/atlas-ui-3": {
+    "stars": 45,
+    "lastCommit": "2026-11-11",
+    "openIssues": 33,
+    "totalIssues": 407,
+    "updated_at": "2026-11-11T11:25:03.004Z"
+  },
+  "the-open-agent/openagent": {
+    "stars": 5744,
+    "lastCommit": "2026-11-06",
+    "openIssues": 47,
+    "totalIssues": 761,
+    "updated_at": "2026-11-11T11:25:03.044Z"
+  },
+  "pberlizov/vimin-public": {
+    "stars": 0,
+    "lastCommit": "2026-07-05",
+    "openIssues": 0,
+    "totalIssues": 0,
+    "updated_at": "2026-11-11T11:25:03.044Z"
+  },
+  "matthewdcage/llm-swarm-router": {
+    "stars": 27,
+    "lastCommit": "2026-11-10",
+    "openIssues": 61,
+    "totalIssues": 64,
+    "updated_at": "2026-11-11T11:25:03.054Z"
+  },
+  "Inebrio/Routerly": {
+    "stars": 111,
+    "lastCommit": "2026-11-04",
+    "openIssues": 9,
+    "totalIssues": 52,
+    "updated_at": "2026-11-11T11:25:03.070Z"
   }
 }

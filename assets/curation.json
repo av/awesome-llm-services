@@ -1,0 +1,96 @@
+{
+  "additions": [
+    {
+      "handle": "atlas-ui-3",
+      "name": "Atlas UI 3",
+      "projectUrl": "https://github.com/sandialabs/atlas-ui-3",
+      "tags": [
+        "Frontend"
+      ],
+      "tooltip": "Self-hosted multi-provider chat interface with MCP tools and agentic workflows, developed at Sandia National Laboratories."
+    },
+    {
+      "handle": "enzo",
+      "name": "ENZO",
+      "projectUrl": "https://github.com/theguysudo/ENZO",
+      "tags": [
+        "Frontend"
+      ],
+      "tooltip": "Self-hosted AI workspace with chat, agents, and skills using your own provider keys or an OpenAI-compatible local endpoint."
+    },
+    {
+      "handle": "vimin-core",
+      "name": "vimin-core",
+      "projectUrl": "https://github.com/pberlizov/vimin-public",
+      "tags": [
+        "Backend"
+      ],
+      "tooltip": "Distributed local LLM and Whisper inference orchestration with MLX and llama.cpp backends and an HTTP API."
+    },
+    {
+      "handle": "llmkube",
+      "name": "LLMKube",
+      "projectUrl": "https://github.com/defilantech/LLMKube",
+      "tags": [
+        "Backend"
+      ],
+      "tooltip": "Kubernetes operator for llama.cpp inference with model management, GPU support, Helm deployment, and an OpenAI-compatible API."
+    },
+    {
+      "handle": "corvinos",
+      "name": "CorvinOS",
+      "projectUrl": "https://github.com/CorvinLabs/CorvinOS",
+      "tags": [
+        "Satellite"
+      ],
+      "tooltip": "Self-hosted assistant connecting Ollama and other model providers to messaging platforms, with consent controls and audit logging."
+    },
+    {
+      "handle": "openagent",
+      "name": "OpenAgent",
+      "projectUrl": "https://github.com/the-open-agent/openagent",
+      "tags": [
+        "Frontend"
+      ],
+      "tooltip": "Self-hosted AI assistant with local-model support, knowledge bases, agent tools, and workflow automation."
+    },
+    {
+      "handle": "llm-swarm-router",
+      "name": "llm-swarm-router",
+      "projectUrl": "https://github.com/matthewdcage/llm-swarm-router",
+      "tags": [
+        "API"
+      ],
+      "tooltip": "Self-hosted LAN mesh router for local LLM backends, exposing OpenAI-compatible and Anthropic Messages APIs."
+    },
+    {
+      "handle": "routerly",
+      "name": "Routerly",
+      "projectUrl": "https://github.com/Inebrio/Routerly",
+      "tags": [
+        "API"
+      ],
+      "tooltip": "Self-hosted OpenAI- and Anthropic-compatible gateway with routing policies, cost tracking, and budget enforcement."
+    }
+  ],
+  "excludedRepositories": {
+    "FlowiseAI/Flowise": "Archived upstream",
+    "SciPhi-AI/R2R": "No commits since 2025-11-07 (over one year)",
+    "airweave-ai/airweave": "Archived upstream",
+    "daytonaio/daytona": "Archived upstream",
+    "huggingface/ml-intern": "Archived upstream",
+    "huggingface/parler-tts": "No commits since 2024-12-10 (over one year)",
+    "huggingface/text-generation-inference": "Archived upstream",
+    "matatonic/openedai-speech": "Archived upstream",
+    "open-webui/pipelines": "Archived upstream",
+    "plandex-ai/plandex": "No commits since 2025-10-03 (over one year)",
+    "pluja/whishper": "No commits since 2025-08-15 (over one year)",
+    "yamalight/litlytics": "Archived upstream",
+    "zenoverflow/omnichain": "Archived upstream",
+    "zou-group/textgrad": "No commits since 2025-07-25 (over one year)"
+  },
+  "urlOverrides": {
+    "https://github.com/av/harbor/tree/main/bench": "https://github.com/av/harbor/tree/main/services/bench",
+    "https://github.com/av/harbor/tree/main/ol1": "https://github.com/av/harbor/tree/main/services/ol1"
+  }
+}
