@@ -917,11 +917,11 @@
     "updated_at": "2026-11-06T06:13:30.167Z"
   },
   "huggingface/speech-to-speech": {
-    "stars": 13659,
-    "lastCommit": "2026-11-06",
-    "openIssues": 35,
-    "totalIssues": 261,
-    "updated_at": "2026-11-09T06:16:54.097Z"
+    "stars": 13699,
+    "lastCommit": "2026-11-13",
+    "openIssues": 31,
+    "totalIssues": 263,
+    "updated_at": "2026-11-16T06:19:47.324Z"
   },
   "pluja/whishper": {
     "stars": 3101,
