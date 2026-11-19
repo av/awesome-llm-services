@@ -1058,58 +1058,58 @@
   },
   "CorvinLabs/CorvinOS": {
     "stars": 25,
-    "lastCommit": "2026-11-11",
+    "lastCommit": "2026-11-18",
     "openIssues": 1,
     "totalIssues": 1,
-    "updated_at": "2026-11-11T11:25:02.973Z"
+    "updated_at": "2026-11-19T06:13:13.461Z"
   },
   "defilantech/LLMKube": {
-    "stars": 264,
-    "lastCommit": "2026-11-11",
-    "openIssues": 114,
-    "totalIssues": 1018,
-    "updated_at": "2026-11-11T11:25:02.973Z"
+    "stars": 267,
+    "lastCommit": "2026-11-18",
+    "openIssues": 121,
+    "totalIssues": 1052,
+    "updated_at": "2026-11-19T06:13:13.517Z"
   },
   "theguysudo/ENZO": {
-    "stars": 119,
-    "lastCommit": "2026-11-11",
-    "openIssues": 6,
-    "totalIssues": 7,
-    "updated_at": "2026-11-11T11:25:02.983Z"
+    "stars": 121,
+    "lastCommit": "2026-11-19",
+    "openIssues": 5,
+    "totalIssues": 6,
+    "updated_at": "2026-11-19T06:13:13.481Z"
   },
   "sandialabs/atlas-ui-3": {
-    "stars": 45,
-    "lastCommit": "2026-11-11",
-    "openIssues": 33,
-    "totalIssues": 407,
-    "updated_at": "2026-11-11T11:25:03.004Z"
+    "stars": 48,
+    "lastCommit": "2026-11-17",
+    "openIssues": 31,
+    "totalIssues": 408,
+    "updated_at": "2026-11-19T06:13:13.425Z"
   },
   "the-open-agent/openagent": {
-    "stars": 5744,
+    "stars": 5750,
     "lastCommit": "2026-11-06",
-    "openIssues": 47,
-    "totalIssues": 761,
-    "updated_at": "2026-11-11T11:25:03.044Z"
+    "openIssues": 0,
+    "totalIssues": 0,
+    "updated_at": "2026-11-19T06:13:13.546Z"
   },
   "pberlizov/vimin-public": {
     "stars": 0,
     "lastCommit": "2026-07-05",
     "openIssues": 0,
     "totalIssues": 0,
-    "updated_at": "2026-11-11T11:25:03.044Z"
+    "updated_at": "2026-11-19T06:13:13.534Z"
   },
   "matthewdcage/llm-swarm-router": {
     "stars": 27,
     "lastCommit": "2026-11-10",
     "openIssues": 61,
     "totalIssues": 64,
-    "updated_at": "2026-11-11T11:25:03.054Z"
+    "updated_at": "2026-11-19T06:13:13.499Z"
   },
   "Inebrio/Routerly": {
     "stars": 111,
     "lastCommit": "2026-11-04",
-    "openIssues": 9,
-    "totalIssues": 52,
-    "updated_at": "2026-11-11T11:25:03.070Z"
+    "openIssues": 11,
+    "totalIssues": 54,
+    "updated_at": "2026-11-19T06:13:13.492Z"
   }
 }
