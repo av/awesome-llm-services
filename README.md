@@ -52,7 +52,7 @@ The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, and
 All-in-one agentic chatbot platform for multi-LLM conversations across messaging platforms with plugin system.
 
 #### **[Atlas UI 3](https://github.com/sandialabs/atlas-ui-3)**<br>
-<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 29% &nbsp; <img src="./assets/star-b0.svg" width="16" height="16" style="vertical-align: middle;"> 48 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 408 (31 open, 377 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-11-17<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 31% &nbsp; <img src="./assets/star-b0.svg" width="16" height="16" style="vertical-align: middle;"> 49 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 423 (34 open, 389 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-11-26<br>
 <a href="https://github.com/sandialabs/atlas-ui-3"><img src="https://img.shields.io/github/v/release/sandialabs/atlas-ui-3?style=flat&label=release&color=7d8590" alt="sandialabs/atlas-ui-3 release"></a> <a href="https://github.com/sandialabs/atlas-ui-3"><img src="https://img.shields.io/github/license/sandialabs/atlas-ui-3?style=flat&label=license&color=7d8590" alt="sandialabs/atlas-ui-3 license"></a> &nbsp; <img src="https://img.shields.io/badge/Frontend-000000?style=flat" alt="Frontend"><br>
 Self-hosted multi-provider chat interface with MCP tools and agentic workflows, developed at Sandia National Laboratories.
 
@@ -77,7 +77,7 @@ Private AI chat and workflow workspace with local-model discovery. Knowledge bas
 The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
 
 #### **[ENZO](https://github.com/theguysudo/ENZO)**<br>
-<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 37% &nbsp; <img src="./assets/star-b1.svg" width="16" height="16" style="vertical-align: middle;"> 121 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 6 (5 open, 1 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-11-19<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 39% &nbsp; <img src="./assets/star-b1.svg" width="16" height="16" style="vertical-align: middle;"> 123 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 7 (5 open, 2 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-11-26<br>
 <a href="https://github.com/theguysudo/ENZO"><img src="https://img.shields.io/github/v/release/theguysudo/ENZO?style=flat&label=release&color=7d8590" alt="theguysudo/ENZO release"></a> <a href="https://github.com/theguysudo/ENZO"><img src="https://img.shields.io/github/license/theguysudo/ENZO?style=flat&label=license&color=7d8590" alt="theguysudo/ENZO license"></a> &nbsp; <img src="https://img.shields.io/badge/Frontend-000000?style=flat" alt="Frontend"><br>
 Self-hosted AI workspace with chat, agents, and skills using your own provider keys or an OpenAI-compatible local endpoint.
 
@@ -215,7 +215,7 @@ Local AI server with LLM chat, speech-to-text, text-to-speech, and image generat
 LLM inference in C/C++
 
 #### **[LLMKube](https://github.com/defilantech/LLMKube)**<br>
-<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 42% &nbsp; <img src="./assets/star-b1.svg" width="16" height="16" style="vertical-align: middle;"> 267 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.1k (121 open, 931 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-11-18<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 45% &nbsp; <img src="./assets/star-b1.svg" width="16" height="16" style="vertical-align: middle;"> 268 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1.0k (81 open, 944 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-11-26<br>
 <a href="https://github.com/defilantech/LLMKube"><img src="https://img.shields.io/github/v/release/defilantech/LLMKube?style=flat&label=release&color=7d8590" alt="defilantech/LLMKube release"></a> <a href="https://github.com/defilantech/LLMKube"><img src="https://img.shields.io/github/license/defilantech/LLMKube?style=flat&label=license&color=7d8590" alt="defilantech/LLMKube license"></a> &nbsp; <img src="https://img.shields.io/badge/Backend-000000?style=flat" alt="Backend"><br>
 Kubernetes operator for llama.cpp inference with model management, GPU support, Helm deployment, and an OpenAI-compatible API.
 
@@ -374,7 +374,7 @@ Create Linux commands from natural language, in the shell.
 Knowledge engine for AI agent memory. Transforms documents into searchable graphs and vectors with built-in pipelines.
 
 #### **[CorvinOS](https://github.com/CorvinLabs/CorvinOS)**<br>
-<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 24% &nbsp; <img src="./assets/star-b0.svg" width="16" height="16" style="vertical-align: middle;"> 25 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1 (1 open, 0 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-11-18<br>
+<img src="./assets/rocket.svg" width="16" height="16" style="vertical-align: middle;"> 25% &nbsp; <img src="./assets/star-b0.svg" width="16" height="16" style="vertical-align: middle;"> 25 &nbsp; <img src="./assets/circle-dot.svg" width="16" height="16" style="vertical-align: middle;"> issues 1 (1 open, 0 closed) &nbsp; <img src="./assets/git-commit-horizontal.svg" width="16" height="16" style="vertical-align: middle;"> 2026-11-23<br>
 <a href="https://github.com/CorvinLabs/CorvinOS"><img src="https://img.shields.io/github/v/release/CorvinLabs/CorvinOS?style=flat&label=release&color=7d8590" alt="CorvinLabs/CorvinOS release"></a> <a href="https://github.com/CorvinLabs/CorvinOS"><img src="https://img.shields.io/github/license/CorvinLabs/CorvinOS?style=flat&label=license&color=7d8590" alt="CorvinLabs/CorvinOS license"></a> &nbsp; <img src="https://img.shields.io/badge/Satellite-000000?style=flat" alt="Satellite"><br>
 Self-hosted assistant connecting Ollama and other model providers to messaging platforms, with consent controls and audit logging.
 
